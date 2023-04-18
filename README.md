@@ -1,7 +1,11 @@
 # Doggy
-Aplicación de albergues usando gamificación Usando AndroidStudio 
+Aplicación de albergues usando gamificación Usando AndroidStudio
+## Descripcion del Proyecto
+
+  El proyecto trata sobre una aplicacion orientada a yudar a los albues de animales para que estos puedanofrecer sus servicios de adopcion de animales asi como el apoyo directo a estos mismos usando una gamificacion de los animales del albergue para asi tener mayor relacion con estos
 
 *Reglas de push:*
+
   -Para los Push usar sus ramas
   
   -Avisar sobre los push antes de hacerlos
