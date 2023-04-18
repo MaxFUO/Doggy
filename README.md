@@ -1,21 +1,24 @@
 # Doggy
-Aplicación de albergues usando gamificación
+Aplicación de albergues usando gamificación Usando AndroidStudio 
 
-Reglas de push:
-  Para los Push usar sus ramas
-  Avisar sobre los push antes de hacerlos
-  No tocar archivos de los demas integrantes
+*Reglas de push:*
+  -Para los Push usar sus ramas
+  
+  -Avisar sobre los push antes de hacerlos
+  
+  -No tocar archivos de los demas integrantes
 
-Base de datos utilizada:
+*Base de datos utilizada:*
 
   -> Fire Base
 
-Tipo de notacion empleada:
+*Tipo de notacion empleada:*
 
   -> CamellCase
+  
     [https://www.neoguias.com/tipos-notacion-nombres/#:~:text=La%20notaci%C3%B3n%20Camel%20Case%20combina,resto%20de%20letras%20en%20min%C3%BAsculas]
     
-para las Views
+*para las Views*
 
   -> Hungara
   
