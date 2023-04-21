@@ -8,4 +8,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Adoptar.unity
+    guid: 56d2bf38c5a8dd24183ecf36b6b49256
+  - enabled: 1
+    path: Assets/Scenes/Principal.unity
+    guid: 5951b698407151a4a98e0cbd8f27c4ed
+  - enabled: 1
+    path: "Assets/Scenes/Ba\xF1ar.unity"
+    guid: 9f8f067766705b5468421b08a8408938
+  - enabled: 1
+    path: Assets/Scenes/Comida.unity
+    guid: 0e196f86c4169004a813ec571d863cd0
+  - enabled: 1
+    path: Assets/Scenes/Comunidad.unity
+    guid: d5fe9ff4070c8c34e8332e8b90725132
+  - enabled: 1
+    path: Assets/Scenes/Ranking.unity
+    guid: dd6b15f5abcdaec41bf987c14368a61c
+  - enabled: 1
+    path: Assets/Scenes/MiniJuegos.unity
+    guid: 5a0dd3d9893b790419424b5bd3c9be6f
+  - enabled: 1
+    path: Assets/Scenes/Tienda.unity
+    guid: 2e91e18879425b64d88b97a8073e6b64
   m_configObjects: {}
