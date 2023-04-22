@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638176463802069306
-    m_Hash: 2100592228
+      ticks: 638176971730589766
+    m_Hash: 3139168780
   m_LockFileStatus:
     m_FilePath: D:/AppMoviles/Proyecto_Git/Doggy/Albergue_Juego/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638176463802491268
-    m_Hash: 2932063597
+      ticks: 638176971730659572
+    m_Hash: 1534423793
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

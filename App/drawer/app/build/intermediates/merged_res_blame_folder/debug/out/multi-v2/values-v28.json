@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.drawer.app-mergeDebugResources-35:/values-v28/values-v28.xml",
+            "outputFile": "com.example.drawer.app-mergeDebugResources-40:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\maxfr\\.gradle\\caches\\transforms-3\\6acbca7b40f0438e8e77ed68bb5757c6\\transformed\\material-1.5.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\maxfr\\.gradle\\caches\\transforms-3\\ea702b1d44f945bc516e7ec865e560e1\\transformed\\material-1.5.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\maxfr\\.gradle\\caches\\transforms-3\\116430c231f652ec6cb468c7433d967b\\transformed\\appcompat-1.4.1\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\maxfr\\.gradle\\caches\\transforms-3\\975c8c2b9f48da9091d3e6406d45f484\\transformed\\appcompat-1.4.1\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
