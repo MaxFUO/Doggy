@@ -21,16 +21,25 @@
         android:testOnly="true"
         android:theme="@style/Theme.Drawer" >
         <activity
-            android:name="com.example.drawer.MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.Drawer.NoActionBar" >
+            android:name="com.example.drawer.CrearCuenta"
+            android:exported="false" />
+        <activity
+            android:name="com.example.drawer.IniciarSesion"
+            android:exported="false" />
+        <activity
+            android:name="com.example.drawer.Bienvenidos"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.drawer.MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Drawer.NoActionBar" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

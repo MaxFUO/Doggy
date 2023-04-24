@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_background_bic"
+    tools:context=".Bienvenidos">
+
+    <TextView
+        android:id="@+id/txtRegistrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="REGISTRARSE"
+        android:textColor="@color/ColorPrincipal3"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgLogoCrearCuenta"
+        android:layout_width="310dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegistrarse"
+        app:srcCompat="@drawable/img_logo_crearcuenta" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogoCrearCuenta"
+        app:layout_constraintVertical_bias="0.196"
+        tools:layout_editor_absoluteX="0dp">
+
+        <EditText
+            android:id="@+id/edtUsernameCrearCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:textColor="@color/white"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/btn_background_marco_blanco"
+            android:ems="10"
+            android:textColorHint="@color/white"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp" />
+
+        <EditText
+            android:id="@+id/edtEmailCrearCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/btn_background_marco_blanco"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edtContraseñaCrearCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/btn_background_marco_blanco"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:paddingStart="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+ />
+
+        <EditText
+            android:id="@+id/edtValidarContraseñaCrearCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/btn_background_marco_blanco"
+            android:ems="10"
+            android:hint="Validar contraseña"
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:id="@+id/btnCrearCuentaRegistrarse"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/btn_background_color_principal1"
+            android:text="Crear cuenta"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPreguntaIniciarSesiónCrearCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:onClick="llamarLogin"
+            android:text="¿Ya tienes una cuenta? Iniciar sesión"
+            android:textAlignment="center"
+            android:textColor="#595A63" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
