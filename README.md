@@ -60,21 +60,40 @@ En resumen, en el desarrollo de aplicaciones móviles con Java, se recomienda ut
 
 
 Button: btn
+
 TextView: txt
+
 EditText: edt
+
 ImageView: img
+
 ProgressBar: pgb
+
 ListView: lst
+
 GridView: grv
+
 Spinner: spn
+
 CheckBox: cbx
+
 RadioButton:rbt
+
 ToggleButton: tbt
+
 Switch: swt
+
 SeekBar: sbr
+
 RatingBar: rbr
+
 WebView: wvw
+
 DatePicker: dpk
+
 TimePicker: tpk
+
 CalendarView: cvw
-RecyclerView: rcv    
+
+RecyclerView: rcv 
+
