@@ -18,7 +18,7 @@ Aplicación de albergues usando gamificación Usando AndroidStudio
 
 ### *Tipo de notacion empleada:*
 
-  ####-> CamellCase
+  ### -> CamellCase
   
     En Java, camel case es una convención de nomenclatura comúnmente utilizada para nombrar variables, métodos, clases y procedimientos. Aquí hay una explicación más detallada de su uso en cada caso:
 
@@ -34,17 +34,14 @@ Aplicación de albergues usando gamificación Usando AndroidStudio
      *Procedimientos:* En Java, los procedimientos se implementan como métodos sin valor de retorno (void). Los procedimientos también se nombran utilizando camel case. El primer carácter de la primera palabra se escribe en minúscula y el primer carácter de cada palabra subsiguiente se escribe en mayúscula. Por ejemplo, un procedimiento que imprima un mensaje de bienvenida en la consola podría llamarse "printWelcomeMessage". El uso de camel case en los procedimientos hace que el código sea más fácil de leer y mantener.
 
 
-      En resumen, en Java, camel case es una convención de nomenclatura ampliamente utilizada para nombrar variables, métodos, clases y procedimientos. Al utilizar camel case, se hace que el código sea más legible y fácil de entender, lo que puede hacer que el proceso de desarrollo y mantenimiento del código sea más eficiente y efectivo.
-    
+      En resumen, en Java, camel case es una convención de nomenclatura ampliamente utilizada para nombrar variables, métodos, clases y procedimientos. Al utilizar camel case, se hace que el código sea más legible y fácil de entender, lo que puede hacer que el proceso de desarrollo y mantenimiento del código sea más eficiente y efectivo.      
 
-    https://es.scribd.com/document/475224682/Modulo-3-Notacion-CamelCase-pdf
-    
-    *PARA DESCARGAR USAR DESCARGAR SCRIPBD*
     
     
 ### *para las Views*
 
-   ####-> Hungara
+   ### -> Hungara
+   
         En el desarrollo de aplicaciones móviles con Java, los Views son las interfaces de usuario que los usuarios pueden ver y utilizar. La notación húngara no es una convención de nomenclatura comúnmente utilizada en Java para nombrar elementos de la interfaz de usuario. En su lugar, se recomienda el uso de nombres descriptivos que sean fáciles de entender y recordar para los usuarios.
 
       Aquí hay algunos ejemplos de nombres descriptivos que se pueden utilizar para nombrar elementos en las vistas de una aplicación móvil con Java:
@@ -80,7 +77,4 @@ Aplicación de albergues usando gamificación Usando AndroidStudio
       DatePicker: dpk
       TimePicker: tpk
       CalendarView: cvw
-      RecyclerView: rcv
-      
-      
-    https://www.kyocode.com/2018/06/notacion-hungara/
+      RecyclerView: rcv    
