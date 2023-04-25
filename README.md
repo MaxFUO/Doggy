@@ -48,8 +48,11 @@ Aquí hay algunos ejemplos de nombres descriptivos que se pueden utilizar para n
 
 
 *btnSubmit:* un botón que envía un formulario o realiza una acción específica
+
 *txtUsername:* un campo de entrada de texto que solicita al usuario que ingrese su nombre de usuario
+
 *lblTitle:* una etiqueta que indica el título de una pantalla o sección específica de la aplicación
+
 *imgLogo:* una imagen que representa el logotipo de la aplicación
 
 
