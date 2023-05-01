@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:background="@color/ColorPrincipal2"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/color_background_bic"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imgFotoMascota1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtNombreCachorro1"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:textSize="20sp"
+        android:padding="6dp"
+        android:hint="Nombre mascota"
+        android:textStyle="bold"
+        android:background="@drawable/edt_background_color_principal3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtDescripcionCachorro"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Descripción del animal."
+        android:padding="6dp"
+        android:background="@drawable/btn_background_marco_blanco"
+        app:layout_constraintEnd_toEndOf="@+id/txtNombreCachorro1"
+        app:layout_constraintStart_toStartOf="@+id/txtNombreCachorro1"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombreCachorro1" />
+
+    <ImageView
+        android:id="@+id/imgAdopcion"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/ic_adoptar"
+        app:layout_constraintEnd_toStartOf="@+id/imgPlay"
+        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintStart_toStartOf="@+id/txtDescripcionCachorro"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescripcionCachorro" />
+
+    <ImageView
+        android:id="@+id/imgPlay"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/ic_play"
+        app:layout_constraintEnd_toEndOf="@+id/txtDescripcionCachorro"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txtDescripcionCachorro"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescripcionCachorro" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="-15dp"
+        android:src="@drawable/ic_caracteristicas"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout1"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout1"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout1" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
