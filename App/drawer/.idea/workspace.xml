@@ -10,189 +10,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad880989-add0-4656-aec3-777a99819bb6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/.vs/Albergue_Juego/FileContentIndex/35ba7427-ffde-4153-b977-a8d880439c23.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/.vs/Albergue_Juego/FileContentIndex/4f83dd75-e061-43ad-bf64-d79b89d95314.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/.vs/Albergue_Juego/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/.vs/Albergue_Juego/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/Adoptar.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/Adoptar.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/Bañar.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/Bañar.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/Comida.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/Comida.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/Comunidad.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/Comunidad.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/MiniJuegos.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/MiniJuegos.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/Principal.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/Principal.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/Ranking.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/Ranking.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/Tienda.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scenes/Tienda.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scripts/CambiarScena.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Assets/Scripts/CambiarScena.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/01/01337d231dcd461e268fe38d11c01be4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/0b/0b0029f9ebd40e4ec0cc3fe93282fd96" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/1a/1ab691acd344894e2ff3182a9b2b5905" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/1d/1dbb81e2ca021e7aae89604a452fd921" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/22/2228da0c9307a95c9c8df5dc94cf718d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/24/2486c285246523fe5435ea84ddf3dcd2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/27/27a7acd80aeef51c3fd603091a4b5218" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/2e/2e41cc479411c4213c3aaca707b96a66" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/2e/2e82bd5148f972f3c2536e159e285560" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/2f/2f6f813b23c41296aa95845d267fad7b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/3e/3e6e5134ab2742722e73f95b6183838f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/3f/3fbaeb896a5e8e37fe6b8ff1929e2f7f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/44/446ff3814746e5567b453c77ac8f851d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/4c/4c942acb4553caa747397e7438cd4cad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/4d/4d07536ae85c131689024dff84a78fa3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/5b/5b26994a6d5cdd9a8ea77c9495a6621b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/5d/5d04eb1ea00c0db45e44990c5e183cce" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/5e/5e389afaa28e8ce0f0bb977dca284fa6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/60/60baab6dbec92bc8aaa862d6d5bc305d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/68/6895eb53f3f45390047562613af6227e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/6a/6a077ed16f27dc409710dabc9720a5e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/6a/6aa4787834a41adc74c6bc0401217784" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/6f/6fbb160d00a687f53ae21dc8a56674df" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/6f/6fda0ae980dc01856ec5e9f53a810ad4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/76/7623bddde8b46bf2240bb83dd94971e3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/79/796651399094972af145ce18a3968c7e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/83/8365c7a15c3ae84ddb035472f90557d0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/83/83c8e36fb71d7f5a18cd73998a3bf359" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/88/88ec830add8d861fc97656b220121170" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/8a/8abe8601aab7d4112bce6839cfaca4a6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/91/914790bfba60cf23c6912b6a1ff15cb9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/98/988e078c2ea6a6269a0ecbad12cabd2f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/9c/9c1183f122368a1cbba730ff18f6967e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/9d/9de48a3fd0ceb9947bdab2b28be343bc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/a0/a0f2908e14307f26b17d62795071adef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/ad/ad77fa4629eabf37f690370209415383" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/b3/b3bf2bc23444ee6727c2e2284e8a2c88" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/b9/b914a64cc51653d99c51e5fe51e62cd2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/c0/c02327315d2581bbad8e4ef38ce3661a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/c5/c55c6d513ea16ddffefbc30f604d8241" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/cc/ccc8496cc112200918805ad6950480d5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/cd/cd7d62cf59df35cf0dec891a0a505514" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/d0/d0c13393dfafb9b64da5745b47307549" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/d2/d2322532f552a677226cc2d1d8d1bb18" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/d7/d70e661f0437071793acdb196765fb8b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/da/da1412ab735346126b97c9e6083b7442" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/db/db2db425ad2d4806dc6d883ddfcd29a0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/e3/e31c3a9f6b892c68aaecb247040435d9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/f2/f2937b42456dfc69c27fce35d1ee560f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/f3/f36aa6df2b07d64c699a7fc5dbaab8d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/f3/f38e86f506b9b4609edd40b67aa59c00" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/f6/f60910f7245a5f1a0d1788b0eb84ef4b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/f9/f9461a4a4c554a1278f85934fd56f0da" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/1900b0aE-inputdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/1900b0aE-inputdata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/1900b0aE.dag" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/1900b0aE.dag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/1900b0aE.dag.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/1900b0aE.dag.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/1900b0aE.dag_derived" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/1900b0aE.dag_derived" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/7e/7ef820f7e18f58777a0dae30287c51b1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/a6/a620a5f01f8d1ef1a1ec034e5fbe0ee9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/bc/bc7453a1d36d321c6691d45a321f7966" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/TundraBuildState.state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/TundraBuildState.state.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/backend_profiler0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/backend_profiler0.traceevents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/backend_profiler1.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/backend_profiler1.traceevents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/buildprogram0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/buildprogram0.traceevents" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/fullprofile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/tundra.digestcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/tundra.log.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Search/transactions.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Logs/AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/example/drawer/databinding/ActivityMainBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/example/drawer/databinding/ActivityMainBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.example.drawer-binding_classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.example.drawer-binding_classes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/activity_main-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/activity_main-layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_package/debug/out/activity_main-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_package/debug/out/activity_main-layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/drawer/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/drawer/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/drawer/databinding/ActivityMainBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/drawer/databinding/ActivityMainBinding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/debug/R-def.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/menu_activity_main_drawer.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/menu_activity_main_drawer.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/navigation_mobile_navigation.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/navigation_mobile_navigation.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values_values.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/navigation_json/debug/navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/navigation_json/debug/navigation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/menu/activity_main_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/menu/activity_main_drawer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/navigation/mobile_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/drawer/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/drawer/MainActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/drawer/databinding/ActivityMainBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/drawer/databinding/ActivityMainBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/drawer/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/drawer/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Entidades/Animales.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Entidades/Animales.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/Mapa_Albergues.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/Mapa_Albergues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/MostrarAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/MostrarAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mapa__albergues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mapa__albergues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R58R54ESHDJ]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -222,16 +68,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/AppMoviles/Proyecto_Git/Doggy/App/drawer/app/src/main/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AppMoviles/Proyecto_Git/Doggy/App/drawer/app/src/main/res/drawable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "last_directory_selection": "D:/AppMoviles/Proyecto_Git/Doggy/App/drawer/app/src/main/java",
+    "last_opened_file_path": "D:/AppMoviles/Proyecto_Git/Doggy/App/drawer"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\res\drawable" />
@@ -332,12 +178,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/Mapa_Albergues.java</url>
-          <line>115</line>
+          <line>111</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/Mapa_Albergues.java</url>
-          <line>126</line>
+          <line>122</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

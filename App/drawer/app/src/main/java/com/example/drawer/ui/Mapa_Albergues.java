@@ -107,11 +107,7 @@ public class Mapa_Albergues extends Fragment implements Response.Listener<JSONOb
                 albergue = new Albergues();
                 JSONObject jsonObject = null;
                 jsonObject = json.getJSONObject(i);
-//                albergue.setIDAlbergue(jsonObject.getInt("IDAlbergue"));
                 albergue.setNombreAlb(jsonObject.getString("NombreAlb"));
-                Toast.makeText(getContext(), albergue.getNombreAlb(), Toast.LENGTH_SHORT).show();
-//                albergue.setLatitudAlb(jsonObject.getString("LatitudAlb"));
-//                albergue.setLongitudAlb(jsonObject.getString("LongitudAlb"));
                 albergue.setHoraAperturaAlb(jsonObject.getString("HoraAperturaAlb"));
                 listaAlbergues.add(albergue);
             }
