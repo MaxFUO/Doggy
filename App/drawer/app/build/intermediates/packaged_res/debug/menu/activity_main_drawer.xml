@@ -24,5 +24,10 @@
             android:id="@+id/nav_mostraranimal"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Mostrar Animal" />
+        <item
+            android:id="@+id/nav_lista_animales"
+            android:icon="@drawable/ic_mostrar_animales"
+            android:title="@string/mostrar_animales"
+            />
     </group>
 </menu>

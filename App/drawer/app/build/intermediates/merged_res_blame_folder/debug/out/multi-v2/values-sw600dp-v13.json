@@ -4,7 +4,7 @@
             "outputFile": "com.example.drawer.app-mergeDebugResources-40:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\maxfr\\.gradle\\caches\\transforms-3\\975c8c2b9f48da9091d3e6406d45f484\\transformed\\appcompat-1.4.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\maxfr\\.gradle\\caches\\transforms-3\\a182d510485a9e55d0682bb262a8a591\\transformed\\appcompat-1.4.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\maxfr\\.gradle\\caches\\transforms-3\\ea702b1d44f945bc516e7ec865e560e1\\transformed\\material-1.5.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\maxfr\\.gradle\\caches\\transforms-3\\0b0e9ca3b241788e1ef5e663bebb379b\\transformed\\material-1.5.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
