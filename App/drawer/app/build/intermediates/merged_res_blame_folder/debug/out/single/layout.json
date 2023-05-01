@@ -4,6 +4,14 @@
         "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\activity_iniciarsesion.xml"
     },
     {
+        "merged": "com.example.drawer.app-mergeDebugResources-36:/layout/fragment_lista_animales.xml",
+        "source": "com.example.drawer.app-main-39:/layout/fragment_lista_animales.xml"
+    },
+    {
+        "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_lista_animales.xml",
+        "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_lista_animales.xml"
+    },
+    {
         "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\content_main.xml",
         "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\content_main.xml"
     },
@@ -24,10 +32,6 @@
         "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_recycle_mainactivity.xml"
     },
     {
-        "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\activity_login.xml"
-    },
-    {
         "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\app_bar_main.xml",
         "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\app_bar_main.xml"
     },
@@ -40,14 +44,6 @@
         "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "com.example.drawer.app-mergeDebugResources-36:/layout/item_lista_animal.xml",
-        "source": "com.example.drawer.app-main-39:/layout/item_lista_animal.xml"
-    },
-    {
-        "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\activity_login2.xml",
-        "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\activity_login2.xml"
-    },
-    {
         "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\activity_crearcuenta.xml",
         "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\activity_crearcuenta.xml"
     },
@@ -58,10 +54,6 @@
     {
         "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\activity_bienvenidos.xml",
         "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\activity_bienvenidos.xml"
-    },
-    {
-        "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\activity_create_acount.xml",
-        "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\activity_create_acount.xml"
     },
     {
         "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_gallery.xml",

@@ -24,6 +24,8 @@
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/nav_lista_animales"
-        android:name="com.example.drawer.ui.Rec"
+        android:name="com.example.drawer.ui.fragmentListaAnimales"
+        android:label="@string/mostrar_animales"
+        tools:layout="@layout/fragment_lista_animales"
         />
 </navigation>

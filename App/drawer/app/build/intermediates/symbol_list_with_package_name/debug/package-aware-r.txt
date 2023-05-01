@@ -2525,6 +2525,7 @@ drawable ic_m3_chip_close
 drawable ic_menu_camera
 drawable ic_menu_gallery
 drawable ic_menu_slideshow
+drawable ic_mostrar_animales
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -3082,6 +3083,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtConocenos
+id txtDescripcionCachorro
 id txtIniciarSesion
 id txtNombreCachorro1
 id txtPreguntaCrearCuentaIniciarSesion
@@ -3221,7 +3224,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_gallery
 layout fragment_home
-layout fragment_recycle_mainactivity
+layout fragment_lista_animales
 layout fragment_slideshow
 layout item_lista_animal
 layout m3_alert_dialog
@@ -3277,7 +3280,6 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout recycle_main_activity
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3399,6 +3401,7 @@ string material_timepicker_text_input_mode_description
 string menu_gallery
 string menu_home
 string menu_slideshow
+string mostrar_animales
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description
