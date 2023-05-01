@@ -16,5 +16,13 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_mostraralbergues"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Mostrar Albergue" />
+        <item
+            android:id="@+id/nav_mostraranimal"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Mostrar Animal" />
     </group>
 </menu>

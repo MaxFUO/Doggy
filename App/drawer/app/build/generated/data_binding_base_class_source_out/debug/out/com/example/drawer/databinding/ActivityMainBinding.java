@@ -26,14 +26,14 @@ public final class ActivityMainBinding implements ViewBinding {
   public final DrawerLayout drawerLayout;
 
   @NonNull
-  public final NavigationView navView;
+  public final NavigationView navView1;
 
   private ActivityMainBinding(@NonNull DrawerLayout rootView, @NonNull AppBarMainBinding appBarMain,
-      @NonNull DrawerLayout drawerLayout, @NonNull NavigationView navView) {
+      @NonNull DrawerLayout drawerLayout, @NonNull NavigationView navView1) {
     this.rootView = rootView;
     this.appBarMain = appBarMain;
     this.drawerLayout = drawerLayout;
-    this.navView = navView;
+    this.navView1 = navView1;
   }
 
   @Override
@@ -72,14 +72,14 @@ public final class ActivityMainBinding implements ViewBinding {
 
       DrawerLayout drawerLayout = (DrawerLayout) rootView;
 
-      id = R.id.nav_view;
-      NavigationView navView = ViewBindings.findChildViewById(rootView, id);
-      if (navView == null) {
+      id = R.id.nav_view_1;
+      NavigationView navView1 = ViewBindings.findChildViewById(rootView, id);
+      if (navView1 == null) {
         break missingId;
       }
 
       return new ActivityMainBinding((DrawerLayout) rootView, binding_appBarMain, drawerLayout,
-          navView);
+          navView1);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
