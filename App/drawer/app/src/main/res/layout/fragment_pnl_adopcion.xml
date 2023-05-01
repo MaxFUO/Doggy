@@ -57,7 +57,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="0dp"
-                        android:text="PELUCHIN"
+
                         android:textColor="@color/ColorPrincipal1"
                         android:textSize="24sp"
                         android:textStyle="bold"
@@ -95,7 +95,6 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginEnd="16dp"
-                                android:text="10 años"
                                 android:textColor="#575454"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -130,7 +129,6 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginEnd="16dp"
-                                android:text="Macho"
                                 android:textColor="#575454"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -154,7 +152,6 @@
                                 android:id="@+id/ivRequiere"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginStart="16dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toStartOf="@+id/txtRequiere"
                                 app:layout_constraintStart_toStartOf="parent"
@@ -166,7 +163,6 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginEnd="16dp"
-                                android:text="Requiere"
                                 android:textColor="#575454"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -176,6 +172,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:layout_marginStart="24dp"
@@ -209,8 +206,6 @@
                                 android:id="@+id/txtDescripcionMascota"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Peluchin es un pastor alemán leal y juguetón,
-                                con un pelaje negro y marrón brillante. Ama jugar al aire libre y es inteligente."
                                 android:textColor="#000000"
                                 android:textSize="15dp" />
 
@@ -295,6 +290,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
                         app:layout_constraintVertical_bias="0.0" />
+
+                    <EditText
+                        android:id="@+id/editTextIDAnimal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="52dp"
+                        android:hint="Ingresa el ID del animal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        tools:layout_editor_absoluteX="16dp" />
+
+                    <Button
+                        android:id="@+id/btnConsultar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/background_btnadoptar"
+                        android:text="Consultar"
+                        android:textColor="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                        app:layout_constraintVertical_bias="0.939" />
+
                     <LinearLayout
                         android:id="@+id/btnAdoptarContainer"
                         android:layout_width="match_parent"
@@ -327,7 +347,6 @@
                             android:layout_height="wrap_content"
                             android:text="En proceso"
                             android:visibility="gone"/>
-
                     </LinearLayout>
 
 

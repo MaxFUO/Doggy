@@ -10,83 +10,87 @@
 9        android:targetSdkVersion="33" />
 9-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:5:5-25:19
-12        android:allowBackup="true"
-12-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\alanp\.gradle\caches\transforms-3\0212d0c0c0b99c5d00c15a82a811f4d1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:7:9-65
-15        android:debuggable="true"
-16        android:extractNativeLibs="false"
-17        android:fullBackupContent="@xml/backup_rules"
-17-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:8:9-54
-18        android:icon="@mipmap/ic_launcher"
-18-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:9:9-43
-19        android:label="@string/app_name"
-19-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:10:9-41
-20        android:supportsRtl="true"
-20-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:11:9-35
-21        android:testOnly="true"
-22        android:theme="@style/Theme.Drawer" >
-22-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:12:9-44
-23        <activity
-23-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:14:9-24:20
-24            android:name="com.example.drawer.MainActivity"
-24-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:15:13-41
-25            android:exported="true"
-25-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:16:13-36
-26            android:label="@string/app_name"
-26-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:17:13-45
-27            android:theme="@style/Theme.Drawer.NoActionBar" >
-27-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:18:13-60
-28            <intent-filter>
-28-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:19:13-23:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:20:17-69
-29-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:20:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:22:17-77
-31-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:22:27-74
-32            </intent-filter>
-33        </activity>
-34
-35        <provider
-35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-36            android:name="androidx.startup.InitializationProvider"
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-37            android:authorities="com.example.drawer.androidx-startup"
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-38            android:exported="false" >
-38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-39            <meta-data
-39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-40                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-41                android:value="androidx.startup" />
-41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-42            <meta-data
-42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\alanp\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-43                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-43-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\alanp\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-44                android:value="androidx.startup" />
-44-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\alanp\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-45        </provider>
-46
-47        <uses-library
-47-->[androidx.window:window:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-48            android:name="androidx.window.extensions"
-48-->[androidx.window:window:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-49            android:required="false" />
-49-->[androidx.window:window:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-50        <uses-library
-50-->[androidx.window:window:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-51            android:name="androidx.window.sidecar"
-51-->[androidx.window:window:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-52            android:required="false" />
-52-->[androidx.window:window:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-53    </application>
-54
-55</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:4:5-6:11
+11-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:5:9-51
+12
+13    <application
+13-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:9:5-29:19
+14        android:allowBackup="true"
+14-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:10:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\alanp\.gradle\caches\transforms-3\0212d0c0c0b99c5d00c15a82a811f4d1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:11:9-65
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:12:9-54
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:13:9-43
+21        android:label="@string/app_name"
+21-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:14:9-41
+22        android:supportsRtl="true"
+22-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:15:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.Drawer" >
+24-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:16:9-44
+25        <activity
+25-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:18:9-28:20
+26            android:name="com.example.drawer.MainActivity"
+26-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:19:13-41
+27            android:exported="true"
+27-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:20:13-36
+28            android:label="@string/app_name"
+28-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:21:13-45
+29            android:theme="@style/Theme.Drawer.NoActionBar" >
+29-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:22:13-60
+30            <intent-filter>
+30-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:23:13-27:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:24:17-69
+31-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:24:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:26:17-77
+33-->D:\Noveno ciclo\Proyecto_01\Doggy\App\drawer\app\src\main\AndroidManifest.xml:26:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <provider
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+38            android:name="androidx.startup.InitializationProvider"
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+39            android:authorities="com.example.drawer.androidx-startup"
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+40            android:exported="false" >
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+41            <meta-data
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+43                android:value="androidx.startup" />
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+44            <meta-data
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\alanp\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\alanp\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+46                android:value="androidx.startup" />
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\alanp\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+47        </provider>
+48
+49        <uses-library
+49-->[androidx.window:window:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+50            android:name="androidx.window.extensions"
+50-->[androidx.window:window:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+51            android:required="false" />
+51-->[androidx.window:window:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+52        <uses-library
+52-->[androidx.window:window:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+53            android:name="androidx.window.sidecar"
+53-->[androidx.window:window:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+54            android:required="false" />
+54-->[androidx.window:window:1.0.0] C:\Users\alanp\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+55    </application>
+56
+57</manifest>

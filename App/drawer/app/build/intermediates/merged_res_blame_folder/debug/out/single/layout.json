@@ -4,6 +4,18 @@
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\app_bar_main.xml"
     },
     {
+        "merged": "com.example.drawer.app-mergeDebugResources-36:/layout/fragment_inicio_interfaz.xml",
+        "source": "com.example.drawer.app-main-39:/layout/fragment_inicio_interfaz.xml"
+    },
+    {
+        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_inicio_interfaz.xml",
+        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_inicio_interfaz.xml"
+    },
+    {
+        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_home.xml",
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_home.xml"
     },
@@ -24,16 +36,8 @@
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "com.example.drawer.app-mergeDebugResources-36:/layout/fragment_pnl_adopcion.xml",
-        "source": "com.example.drawer.app-main-39:/layout/fragment_pnl_adopcion.xml"
-    },
-    {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_gallery.xml",
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_gallery.xml"
-    },
-    {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_slideshow.xml",

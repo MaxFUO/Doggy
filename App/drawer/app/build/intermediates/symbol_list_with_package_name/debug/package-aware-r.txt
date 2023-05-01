@@ -2493,9 +2493,12 @@ drawable abc_vector_test
 drawable adoptar
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_3
 drawable background_btnadoptar
+drawable background_iniciointerfaz
 drawable background_paneladopcion
 drawable background_requisitos
+drawable btn_adopcion
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2505,12 +2508,15 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable circles
+drawable color_background_bic
 drawable cuidados
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable fondo_perfil
+drawable foto_perfil
 drawable ic_action_name
 drawable ic_adopcion
 drawable ic_check
@@ -2530,6 +2536,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_rechazo
+drawable icono_configuracion
 drawable imagen_adoptar
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -2688,6 +2695,7 @@ id btnAceptar2
 id btnAdoptar
 id btnAdoptarContainer
 id btnCancelar
+id btnConsultar
 id btnEnProceso
 id buttonPanel
 id cache_measures
@@ -2770,6 +2778,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextIDAnimal
 id edit_query
 id elastic
 id end
@@ -2814,6 +2823,9 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
+id imageView3
+id imageView4
 id imageView8
 id immediateStop
 id included
@@ -3051,6 +3063,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
 id text_gallery
 id text_home
 id text_input_end_icon
@@ -3085,6 +3098,8 @@ id txtCorreo
 id txtDescripcionMascota
 id txtGenero
 id txtNacimiento
+id txtNacimiento2
+id txtNacimiento3
 id txtNombreMascota
 id txtRequiere
 id unchecked
@@ -3218,6 +3233,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_gallery
 layout fragment_home
+layout fragment_inicio_interfaz
 layout fragment_pnl_adopcion
 layout fragment_pnl_confirmacion
 layout fragment_pnl_rechazo
@@ -3348,6 +3364,7 @@ string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string linea_texto_debajo
 string m3_ref_typeface_brand_display_regular
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular

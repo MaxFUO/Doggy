@@ -4,6 +4,10 @@
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable_btn_adopcion.png.flat",
+        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable\\btn_adopcion.png"
+    },
+    {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
@@ -32,12 +36,12 @@
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.drawer.app-merged_res-37:/layout_fragment_pnl_adopcion.xml.flat",
-        "source": "com.example.drawer.app-main-39:/layout/fragment_pnl_adopcion.xml"
-    },
-    {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\layout_app_bar_main.xml.flat",
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable_background_3.jpg.flat",
+        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable\\background_3.jpg"
     },
     {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable-hdpi_ic_action_name.png.flat",
@@ -66,6 +70,10 @@
     {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable_adoptar.png.flat",
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable\\adoptar.png"
+    },
+    {
+        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable_foto_perfil.png.flat",
+        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable\\foto_perfil.png"
     },
     {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\layout_fragment_home.xml.flat",
@@ -102,6 +110,10 @@
     {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable-mdpi_ic_action_name.png.flat",
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable-mdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable_color_background_bic.xml.flat",
+        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable\\color_background_bic.xml"
     },
     {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\layout_content_main.xml.flat",
@@ -164,6 +176,10 @@
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable-xhdpi\\ic_check.png"
     },
     {
+        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable-hdpi_fondo_perfil.png.flat",
+        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable-hdpi\\fondo_perfil.png"
+    },
+    {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable-anydpi_ic_rechazo.xml.flat",
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable-anydpi\\ic_rechazo.xml"
     },
@@ -220,6 +236,10 @@
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\layout_fragment_inicio_interfaz.xml.flat",
+        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_inicio_interfaz.xml"
+    },
+    {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\xml\\backup_rules.xml"
     },
@@ -240,6 +260,10 @@
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable\\ic_menu_gallery.xml"
     },
     {
+        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable_background_iniciointerfaz.jpg.flat",
+        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable\\background_iniciointerfaz.jpg"
+    },
+    {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -254,6 +278,10 @@
     {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable_ic_menu_camera.xml.flat",
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable_icono_configuracion.png.flat",
+        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable\\icono_configuracion.png"
     },
     {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable_background_requisitos.xml.flat",
@@ -278,6 +306,10 @@
     {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable_ic_menu_slideshow.xml.flat",
         "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "com.example.drawer.app-merged_res-37:/layout_fragment_inicio_interfaz.xml.flat",
+        "source": "com.example.drawer.app-main-39:/layout/fragment_inicio_interfaz.xml"
     },
     {
         "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable_perritofeli.png.flat",
