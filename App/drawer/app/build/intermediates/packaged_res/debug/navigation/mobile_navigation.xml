@@ -22,4 +22,16 @@
         android:name="com.example.drawer.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_mostraralbergues"
+        android:name="com.example.drawer.ui.Mapa_Albergues"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_mostraranimal"
+        android:name="com.example.drawer.ui.MostrarAnimal"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
 </navigation>

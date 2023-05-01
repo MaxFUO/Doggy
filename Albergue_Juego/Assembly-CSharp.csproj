@@ -57,7 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CambiarScena.cs" />
+    <Compile Include="Assets\Scripts\CroquetasComp.cs" />
+    <Compile Include="Assets\Scripts\GeneradorCroquetas.cs" />
+    <Compile Include="Assets\Scripts\OnClikDetected.cs" />
+    <Compile Include="Assets\Scripts\GeneradorHearth.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\MovHearth.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

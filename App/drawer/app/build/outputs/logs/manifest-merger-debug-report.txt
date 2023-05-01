@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-51:12
 MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\maxfr\.gradle\caches\transforms-3\4fd071c202a9b4c1e7b39a7834a0ed80\transformed\viewbinding-7.4.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-ui:2.4.1] C:\Users\maxfr\.gradle\caches\transforms-3\6873c32cfc3b0d989c0f5c89adf55881\transformed\navigation-ui-2.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\maxfr\.gradle\caches\transforms-3\ea702b1d44f945bc516e7ec865e560e1\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
@@ -18,6 +18,7 @@ MERGED from [androidx.navigation:navigation-common:2.4.1] C:\Users\maxfr\.gradle
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\maxfr\.gradle\caches\transforms-3\b83f777c3b94e677db1ac288ab840f6c\transformed\lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\maxfr\.gradle\caches\transforms-3\1223324c01ab800161d0c7be9f83deba\transformed\play-services-maps-18.0.2\AndroidManifest.xml:17:1-44:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\maxfr\.gradle\caches\transforms-3\9016e1ff216753fb11627c7a1686b157\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\maxfr\.gradle\caches\transforms-3\dbf2900307dd1c607ccd28c23e58cedd\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\maxfr\.gradle\caches\transforms-3\937edd1bc9d673f531a5c02180d7ba08\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\maxfr\.gradle\caches\transforms-3\ea6100cf2c487d801f12a73d6a35cfe8\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\maxfr\.gradle\caches\transforms-3\9f21d2f95a87b15bdef694f0d0a3152f\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
@@ -67,27 +68,33 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\maxfr\.gradle\caches\transforms-3\43a9bb0687c7dc9d1bb3cfec6eb3c33f\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\maxfr\.gradle\caches\transforms-3\1f87869d56522e9b7407a141fffbae77\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\maxfr\.gradle\caches\transforms-3\d7dbb816919bbf03f319e33986788026\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-51:12
 	package
 		INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-51:12
 		INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-51:12
 		INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:1-51:12
 		INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\maxfr\.gradle\caches\transforms-3\1223324c01ab800161d0c7be9f83deba\transformed\play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\maxfr\.gradle\caches\transforms-3\1223324c01ab800161d0c7be9f83deba\transformed\play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:5:5-41:19
+ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:7:5-49:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\maxfr\.gradle\caches\transforms-3\ea702b1d44f945bc516e7ec865e560e1\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\maxfr\.gradle\caches\transforms-3\ea702b1d44f945bc516e7ec865e560e1\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\maxfr\.gradle\caches\transforms-3\7e696865852e404aa79f7e8d88614417\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -115,47 +122,57 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\maxfr\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\maxfr\.gradle\caches\transforms-3\bbefd0d57b06f142257e8bd78ec745ba\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:10:9-54
 	tools:targetApi
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:13:9-29
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:12:9-44
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:14:9-44
 	android:dataExtractionRules
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:7:9-65
-meta-data#com.google.android.geo.API_KEY
-ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:26:9-28:44
-	android:value
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:28:13-41
-	android:name
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:27:13-58
-activity#com.example.drawer.MainActivity
-ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:30:9-40:20
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:9:9-65
+	android:usesCleartextTraffic
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:15:9-44
+activity#com.example.drawer.PrincipalDoggy
+ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:17:9-26:20
 	android:label
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:33:13-45
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:20:13-67
 	android:exported
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:32:13-36
-	android:theme
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:34:13-60
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:31:13-41
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:18:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:35:13-39:29
+ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:36:17-69
+ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:36:25-66
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:38:17-77
+ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:24:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:38:9-40:71
+	android:value
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:40:13-68
+	android:name
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:39:13-58
+activity#com.example.drawer.MainActivity
+ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:42:9-48:20
+	android:label
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:45:13-45
+	android:exported
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:44:13-36
+	android:theme
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:46:13-60
+	android:name
+		ADDED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml:43:13-41
 uses-sdk
 INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\AndroidManifest.xml
@@ -188,6 +205,8 @@ MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\maxfr\.g
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\maxfr\.gradle\caches\transforms-3\1223324c01ab800161d0c7be9f83deba\transformed\play-services-maps-18.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\maxfr\.gradle\caches\transforms-3\9016e1ff216753fb11627c7a1686b157\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\maxfr\.gradle\caches\transforms-3\9016e1ff216753fb11627c7a1686b157\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\maxfr\.gradle\caches\transforms-3\dbf2900307dd1c607ccd28c23e58cedd\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\maxfr\.gradle\caches\transforms-3\dbf2900307dd1c607ccd28c23e58cedd\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\maxfr\.gradle\caches\transforms-3\937edd1bc9d673f531a5c02180d7ba08\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\maxfr\.gradle\caches\transforms-3\937edd1bc9d673f531a5c02180d7ba08\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\maxfr\.gradle\caches\transforms-3\ea6100cf2c487d801f12a73d6a35cfe8\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
@@ -300,10 +319,6 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\maxfr\.gradle\caches\transforms-3\1223324c01ab800161d0c7be9f83deba\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
 	android:name
 		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\maxfr\.gradle\caches\transforms-3\1223324c01ab800161d0c7be9f83deba\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\maxfr\.gradle\caches\transforms-3\1223324c01ab800161d0c7be9f83deba\transformed\play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\maxfr\.gradle\caches\transforms-3\1223324c01ab800161d0c7be9f83deba\transformed\play-services-maps-18.0.2\AndroidManifest.xml:24:22-64
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\maxfr\.gradle\caches\transforms-3\1223324c01ab800161d0c7be9f83deba\transformed\play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion

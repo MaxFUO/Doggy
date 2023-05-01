@@ -82,6 +82,5 @@ public class MostrarAnimal extends Fragment {
             }
         });
         return view;
-
     }
 }

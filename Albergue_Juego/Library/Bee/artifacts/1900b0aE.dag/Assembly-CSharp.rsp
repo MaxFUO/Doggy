@@ -370,7 +370,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CambiarScena.cs"
+"Assets/Scripts/CroquetasComp.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/GeneradorCroquetas.cs"
+"Assets/Scripts/GeneradorHearth.cs"
+"Assets/Scripts/MovHearth.cs"
+"Assets/Scripts/OnClikDetected.cs"
 -langversion:9.0
 
 /deterministic

@@ -30,11 +30,12 @@
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-                <ListView
-                    android:id="@+id/lstAlbergues"
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcvListaAlbergues"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    />
+                    android:layout_height="wrap_content">
+
+                </androidx.recyclerview.widget.RecyclerView>
             </ScrollView>
         </LinearLayout>
     </LinearLayout>
