@@ -26,58 +26,31 @@
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
         android:debuggable="true"
         android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Drawer"
         android:usesCleartextTraffic="true" >
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAM_6siQ_Xe4cGibeyrKDs_9TgeOmIdCV4" />
+
         <activity
-            android:name="com.example.drawer.PrincipalDoggy"
+            android:name="com.example.drawer.Principal"
             android:exported="true"
-            android:label="@string/title_activity_principal_doggy" >
+            android:label="@string/title_activity_principal" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.drawer.CrearCuenta"
-            android:exported="false" />
-        <activity
-            android:name="com.example.drawer.IniciarSesion"
-            android:exported="false" />
-        <activity
-            android:name="com.example.drawer.Bienvenidos"
-            android:exported="false" >
-        </activity>
-        <activity
-            android:name="com.example.drawer.MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.Drawer.NoActionBar" >
-        </activity>
-
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAM_6siQ_Xe4cGibeyrKDs_9TgeOmIdCV4" />
-
-        <activity
-            android:name="com.example.drawer.MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.Drawer.NoActionBar" >
-        </activity>
-
-        <uses-library
-            android:name="androidx.window.extensions"
-            android:required="false" />
-        <uses-library
-            android:name="androidx.window.sidecar"
-            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+        <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
@@ -102,6 +75,13 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
     </application>
 
 </manifest>

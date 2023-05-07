@@ -17,7 +17,7 @@ public class Animales {
     private Integer BuffAni;
     private String DesBuffAni;
     private String DebilidadAni;
-    private Bitmap ImagenAnim;
+    private Bitmap ImagenAnim ;
     private String RutaAnim;
     private String DescripcionAnim;
 
@@ -165,12 +165,12 @@ public class Animales {
         DescripcionAnim = descripcionAnim;
     }
 
-    public void setDataImagen(String textoImagen) {
-        try {
+    public void setDataImagen(String textoImagen){
+        try{
             byte[] bytecode = android.util.Base64.decode(textoImagen, Base64.DEFAULT);
             this.ImagenAnim = BitmapFactory.decodeByteArray(bytecode, 0, bytecode.length);
 
-        } catch (Exception e) {
+        }catch (Exception e){
             e.printStackTrace();
         }
     }
@@ -195,5 +195,4 @@ public class Animales {
                 ", DescripcionAnim='" + DescripcionAnim + '\'' +
                 '}';
     }
-
 }

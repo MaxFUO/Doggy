@@ -20,12 +20,16 @@
         "source": "com.example.drawer.app-main-44:/layout/app_bar_main.xml"
     },
     {
-        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/activity_principal_doggy.xml",
-        "source": "com.example.drawer.app-main-44:/layout/activity_principal_doggy.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/activity_principal.xml",
+        "source": "com.example.drawer.app-main-44:/layout/activity_principal.xml"
     },
     {
         "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_slideshow.xml",
         "source": "com.example.drawer.app-main-44:/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_pnl_confirmacion.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_pnl_confirmacion.xml"
     },
     {
         "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/content_main.xml",
@@ -44,6 +48,10 @@
         "source": "com.example.drawer.app-main-44:/layout/activity_iniciarsesion.xml"
     },
     {
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_pnl_rechazo.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_pnl_rechazo.xml"
+    },
+    {
         "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_gallery.xml",
         "source": "com.example.drawer.app-main-44:/layout/fragment_gallery.xml"
     },
@@ -52,12 +60,12 @@
         "source": "com.example.drawer.app-main-44:/layout/nav_header_main.xml"
     },
     {
-        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/activity_main.xml",
-        "source": "com.example.drawer.app-main-44:/layout/activity_main.xml"
-    },
-    {
         "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/activity_crearcuenta.xml",
         "source": "com.example.drawer.app-main-44:/layout/activity_crearcuenta.xml"
+    },
+    {
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_pnl_adopcion.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_pnl_adopcion.xml"
     },
     {
         "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/datosalbergue.xml",
@@ -70,5 +78,9 @@
     {
         "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_home.xml",
         "source": "com.example.drawer.app-main-44:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_inicio_interfaz.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_inicio_interfaz.xml"
     }
 ]

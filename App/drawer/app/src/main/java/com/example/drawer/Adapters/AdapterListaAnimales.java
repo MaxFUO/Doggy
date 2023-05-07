@@ -1,4 +1,4 @@
-package com.example.drawer.Adapter;
+package com.example.drawer.Adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -37,14 +37,12 @@ public class AdapterListaAnimales extends RecyclerView.Adapter<AdapterListaAnima
     public void onBindViewHolder(@NonNull AnimalHolder holder, int position) {
         //aqui obtienes la informacion guardada en la entidad
         //holder.txtNombreAlbergue.setText(listaAlbergues.get(position).getNombreAlb().toString());
+
         holder.txtnombreCachorro.setText(listaAnimales.get(position).getNombreAni().toString());
         holder.txtDescripcionCachorro.setText(listaAnimales.get(position).getDescripcionAnim().toString());
 
         if (listaAnimales.get(position).getImagenAnim() != null)
             holder.imgFotoMascota.setImageBitmap(listaAnimales.get(position).getImagenAnim());
-
-//        if(listaAnimales.get(position).getImagenAnim()!=null)
-//
 //        else
 //        holder.imgFotoMascota.setImageResource(R.drawable.img_gato_julian);
 

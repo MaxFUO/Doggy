@@ -1,6 +1,5 @@
-package Adapters;
+package com.example.drawer.Adapters;
 
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,11 +11,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.drawer.R;
 
-import org.w3c.dom.Text;
-
 import java.util.List;
 
-import Entidades.Albergues;
+import com.example.drawer.Entidades.Albergues;
 
 public class AlbergueAdapter extends RecyclerView.Adapter<AlbergueAdapter.AlbergueHolder>{
     List<Albergues> listaAlbergues;

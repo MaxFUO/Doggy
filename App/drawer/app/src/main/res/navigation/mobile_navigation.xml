@@ -3,42 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_inicio">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.drawer.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_inicio"
+        android:name="com.example.drawer.ui.adopcionpanel.InicioInterfaz"
+        android:label="Mostar Animal"
+        tools:layout="@layout/fragment_inicio_interfaz" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.drawer.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_mostaranimal"
+        android:name="com.example.drawer.ui.fragmentoMostrarAnimal"
+        android:label="Mostar Animal"
+        tools:layout="@layout/fragment_mostrar_animal" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.drawer.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_mostraralbergue"
+        android:name="com.example.drawer.ui.fragmentoMapaAlbergues"
+        android:label="Mostrar Albergue"
+        tools:layout="@layout/fragment_mapa__albergues" />
 
     <fragment
-        android:id="@+id/nav_mostraralbergues"
-        android:name="com.example.drawer.ui.Mapa_Albergues"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-
-    <fragment
-        android:id="@+id/nav_mostraranimal"
-        android:name="com.example.drawer.ui.MostrarAnimal"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-
-    <fragment
-        android:id="@+id/nav_lista_animales"
+        android:id="@+id/nav_listaanimales"
         android:name="com.example.drawer.ui.fragmentListaAnimales"
-        android:label="@string/mostrar_animales"
-        tools:layout="@layout/fragment_lista_animales"
-        />
+        android:label="Lista Animales"
+        tools:layout="@layout/fragment_lista_animales" />
+
+    <fragment
+        android:id="@+id/nav_adopcion"
+        android:name="com.example.drawer.ui.adopcionpanel.PanelAdopcion"
+        android:label="Adopcion"
+        tools:layout="@layout/fragment_pnl_adopcion" />
 </navigation>

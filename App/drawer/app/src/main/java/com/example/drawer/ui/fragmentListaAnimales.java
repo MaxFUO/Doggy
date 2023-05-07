@@ -19,15 +19,19 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.drawer.Adapter.AdapterListaAnimales;
+
+import com.example.drawer.Adapters.AdapterListaAnimales;
 import com.example.drawer.Entidades.Animales;
 import com.example.drawer.R;
-import com.example.drawer.Utils.Utils;
+
 
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+
+import Utils.Utils;
+
 
 
 public class fragmentListaAnimales extends Fragment implements Response.ErrorListener, Response.Listener<JSONObject> {
@@ -81,7 +85,9 @@ public class fragmentListaAnimales extends Fragment implements Response.ErrorLis
         rcvListaAnimales.setLayoutManager(new LinearLayoutManager(getContext()));
         rcvListaAnimales.setHasFixedSize(true);
         requestQueue = Volley.newRequestQueue(getContext());
+
         cargarListaAnimales();
+
         return vista;
 
     }
@@ -90,11 +96,12 @@ public class fragmentListaAnimales extends Fragment implements Response.ErrorLis
         progreso = new ProgressDialog(getContext());
         progreso.setMessage("Consultar Animales");
         progreso.show();
-
         String url = Utils.RUTA + "consultar_animal.php";
+
         jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null,
                 this, this);
         requestQueue.add(jsonObjectRequest); //envia los datos
+        Toast.makeText(getContext(), jsonObjectRequest.toString(), Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -113,6 +120,7 @@ public class fragmentListaAnimales extends Fragment implements Response.ErrorLis
 
         progreso.hide();
         Toast.makeText(getContext(), "Listado Generado", Toast.LENGTH_SHORT).show();
+
         Animales mascotas = null;
         JSONArray json = response.optJSONArray("animal");
 
@@ -121,12 +129,13 @@ public class fragmentListaAnimales extends Fragment implements Response.ErrorLis
                 mascotas = new Animales();
                 JSONObject jsonObject = null;
                 jsonObject = json.getJSONObject(i);
-//                albergue.setIDAlbergue(jsonObject.getInt("IDAlbergue"));
+
 
                 mascotas.setNombreAni(jsonObject.getString("NombreAni"));
+
+                //para probar
                 Toast.makeText(getContext(), mascotas.getNombreAni(), Toast.LENGTH_SHORT).show();
-//                albergue.setLatitudAlb(jsonObject.getString("LatitudAlb"));
-//                albergue.setLongitudAlb(jsonObject.getString("LongitudAlb"));
+
                 mascotas.setDescripcionAnim(jsonObject.getString("DescripcionAnim"));
 
                 listaAnimales.add(mascotas);
