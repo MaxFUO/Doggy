@@ -18,7 +18,7 @@ Aplicación de albergues usando gamificación desarrollada en AndroidStudio y Un
 
 ### *Base de datos utilizada:*
 
-  -> Oracle Cloud
+  -> Oracle Cloud - MySQL
 
 ### *Tipo de notacion empleada:*
 
