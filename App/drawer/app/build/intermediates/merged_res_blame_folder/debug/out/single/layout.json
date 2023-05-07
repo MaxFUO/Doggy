@@ -1,58 +1,86 @@
 [
     {
-        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-41:\\layout\\fragment_mostrar_animal.xml",
-        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-44:\\layout\\fragment_mostrar_animal.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_lista_animales.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_lista_animales.xml"
     },
     {
-        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-41:\\layout\\fragment_gallery.xml",
-        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-44:\\layout\\fragment_gallery.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_mostrar_animal.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_mostrar_animal.xml"
     },
     {
-        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-41:\\layout\\nav_header_main.xml",
-        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-44:\\layout\\nav_header_main.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_dashboard.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-41:\\layout\\fragment_mapa__albergues.xml",
-        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-44:\\layout\\fragment_mapa__albergues.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/activity_bienvenidos.xml",
+        "source": "com.example.drawer.app-main-44:/layout/activity_bienvenidos.xml"
     },
     {
-        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-41:\\layout\\fragment_slideshow.xml",
-        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-44:\\layout\\fragment_slideshow.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/app_bar_main.xml",
+        "source": "com.example.drawer.app-main-44:/layout/app_bar_main.xml"
     },
     {
-        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-41:\\layout\\activity_principal_doggy.xml",
-        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-44:\\layout\\activity_principal_doggy.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/activity_principal.xml",
+        "source": "com.example.drawer.app-main-44:/layout/activity_principal.xml"
     },
     {
-        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-41:\\layout\\app_bar_main.xml",
-        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-44:\\layout\\app_bar_main.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_slideshow.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_slideshow.xml"
     },
     {
-        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-41:\\layout\\fragment_notifications.xml",
-        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-44:\\layout\\fragment_notifications.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_pnl_confirmacion.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_pnl_confirmacion.xml"
     },
     {
-        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-41:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-44:\\layout\\fragment_home.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/content_main.xml",
+        "source": "com.example.drawer.app-main-44:/layout/content_main.xml"
     },
     {
-        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-41:\\layout\\datosalbergue.xml",
-        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-44:\\layout\\datosalbergue.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_mapa__albergues.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_mapa__albergues.xml"
     },
     {
-        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/activity_principal_doggy.xml",
-        "source": "com.example.drawer.app-main-44:/layout/activity_principal_doggy.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/item_lista_animal.xml",
+        "source": "com.example.drawer.app-main-44:/layout/item_lista_animal.xml"
     },
     {
-        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-41:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-44:\\layout\\activity_main.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/activity_iniciarsesion.xml",
+        "source": "com.example.drawer.app-main-44:/layout/activity_iniciarsesion.xml"
     },
     {
-        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-41:\\layout\\fragment_dashboard.xml",
-        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-44:\\layout\\fragment_dashboard.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_pnl_rechazo.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_pnl_rechazo.xml"
     },
     {
-        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-41:\\layout\\content_main.xml",
-        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-44:\\layout\\content_main.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_gallery.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/nav_header_main.xml",
+        "source": "com.example.drawer.app-main-44:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/activity_crearcuenta.xml",
+        "source": "com.example.drawer.app-main-44:/layout/activity_crearcuenta.xml"
+    },
+    {
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_pnl_adopcion.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_pnl_adopcion.xml"
+    },
+    {
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/datosalbergue.xml",
+        "source": "com.example.drawer.app-main-44:/layout/datosalbergue.xml"
+    },
+    {
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_notifications.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_home.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.drawer.app-mergeDebugResources-41:/layout/fragment_inicio_interfaz.xml",
+        "source": "com.example.drawer.app-main-44:/layout/fragment_inicio_interfaz.xml"
     }
 ]

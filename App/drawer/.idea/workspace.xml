@@ -9,30 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad880989-add0-4656-aec3-777a99819bb6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/.vs/Albergue_Juego/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/.vs/Albergue_Juego/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/7e/7ef820f7e18f58777a0dae30287c51b1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/a6/a620a5f01f8d1ef1a1ec034e5fbe0ee9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Artifacts/bc/bc7453a1d36d321c6691d45a321f7966" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/TundraBuildState.state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/TundraBuildState.state.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/backend_profiler0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/backend_profiler0.traceevents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/fullprofile.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/tundra.digestcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/Bee/tundra.log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albergue_Juego/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albergue_Juego/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Entidades/Animales.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Entidades/Animales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/Mapa_Albergues.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/Mapa_Albergues.java" afterDir="false" />
-    </list>
+    <list default="true" id="ad880989-add0-4656-aec3-777a99819bb6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,18 +51,30 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
-    "last_directory_selection": "D:/AppMoviles/Proyecto_Git/Doggy/App/drawer/app/src/main/java",
-    "last_opened_file_path": "D:/AppMoviles/Proyecto_Git/Doggy/App/drawer"
+    "last_directory_selection": "D:/AppMoviles/Proyecto_Git/App/drawer/app/src/main/res/drawable",
+    "last_opened_file_path": "D:/AppMoviles/Conflictos/drawer"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AppMoviles\Proyecto_Git\App\drawer\app\src\main\res\layout" />
+      <recent name="D:\AppMoviles\Proyecto_Git\App\drawer\app\src\main\res\drawable" />
       <recent name="D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\res\drawable" />
       <recent name="D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src" />
       <recent name="D:\AppMoviles\Proyecto_Git\Doggy\App\drawer\app\src\main\res\layout" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AppMoviles\Proyecto_Git\App\drawer\app\src\main\res\navigation" />
+      <recent name="D:\AppMoviles\Proyecto_Git\App\drawer\app\src\main\res\drawable" />
+      <recent name="D:\AppMoviles\Proyecto_Git\App\drawer\app\src\main\java\com\example\drawer\ui" />
+      <recent name="D:\AppMoviles\Proyecto_Git\App\drawer\app\src\main\java\com\example\drawer" />
+      <recent name="D:\AppMoviles\Proyecto_Git\App\drawer\app\src\main\java\Adapters" />
+    </key>
     <key name="android.template.-454181961">
       <recent name="com.example.drawer.ui" />
+    </key>
+    <key name="android.template.299988711">
+      <recent name="com.example.drawer" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.drawer" />
@@ -172,22 +161,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/Mapa_Albergues.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/fragmentoMapaAlbergues.java</url>
           <line>102</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/Mapa_Albergues.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/fragmentoMapaAlbergues.java</url>
           <line>111</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/Mapa_Albergues.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/fragmentoMapaAlbergues.java</url>
           <line>122</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/Mapa_Albergues.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/drawer/ui/fragmentoMapaAlbergues.java</url>
           <line>84</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
