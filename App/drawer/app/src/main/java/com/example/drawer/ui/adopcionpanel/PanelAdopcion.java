@@ -1,16 +1,20 @@
 package com.example.drawer.ui.adopcionpanel;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
+import android.util.Base64;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -79,7 +83,7 @@ public class PanelAdopcion extends Fragment {
         btnConsultar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               buscarAnimales("http://192.168.1.19:80/doggy/buscar_datos.php?idAnimal="+txtIdMascota.getText()+"");
+                buscarAnimales("http://192.168.1.19:80/doggy/buscar_datos.php?idAnimal="+txtIdMascota.getText()+"");
             }
         });
 
@@ -149,7 +153,7 @@ public class PanelAdopcion extends Fragment {
         dialog.show();
     }
 
-    private void buscarAnimales(String URL){
+    private void buscarAnimales(String URL) {
         JsonRequest jsonRequest = new JsonArrayRequest(URL, new Response.Listener<JSONArray>() {
             @Override
             public void onResponse(JSONArray response) {
@@ -159,10 +163,18 @@ public class PanelAdopcion extends Fragment {
                         jsonObject = response.getJSONObject(i);
                         txtIdMascota.setText(jsonObject.getString("IDAnimal"));
                         txtNombreMascota.setText(jsonObject.getString("NombreAni"));
-                        txtNacimiento.setText(jsonObject.getString("EdadAni"));
-                        txtGenero.setText(jsonObject.getString("RazaAni"));
+                        txtGenero.setText(jsonObject.getString("GeneroAni"));
                         txtRequiere.setText(jsonObject.getString("CuidadosEspeciales"));
-                        txtDescripcionMascota.setText(jsonObject.getString("AlimentoFavorito"));
+                        txtDescripcionMascota.setText(jsonObject.getString("DescripcionAnim"));
+
+                        // Obtener la imagen y decodificarla
+                        String imagenBase64 = jsonObject.getString("ImagenAnim");
+                        byte[] imagenBytes = Base64.decode(imagenBase64, Base64.DEFAULT);
+                        Bitmap bitmap = BitmapFactory.decodeByteArray(imagenBytes, 0, imagenBytes.length);
+
+                        // Mostrar la imagen en el ImageView
+                        ImageView imageViewMascota = getView().findViewById(R.id.ivFotoPerfil);
+                        imageViewMascota.setImageBitmap(bitmap);
                     } catch (JSONException e) {
                         Toast.makeText(getContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
                     }
@@ -171,9 +183,10 @@ public class PanelAdopcion extends Fragment {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Toast.makeText(getContext(),"ERROR DE CONEXION",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "ERROR DE CONEXION", Toast.LENGTH_SHORT).show();
             }
         });
+
         RequestQueue requestQueue = Volley.newRequestQueue(getContext());
         requestQueue.add(jsonRequest);
     }

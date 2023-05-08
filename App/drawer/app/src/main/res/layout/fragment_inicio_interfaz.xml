@@ -28,10 +28,8 @@
                     android:layout_height="298dp"
                     android:scaleType="centerCrop"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.555"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    />
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -44,7 +42,7 @@
                     app:srcCompat="@drawable/icono_configuracion" />
 
                 <ImageView
-                    android:id="@+id/imageView3"
+                    android:id="@+id/imgFondo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
@@ -53,40 +51,42 @@
                     app:srcCompat="@drawable/fondo_perfil" />
 
                 <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-                    app:layout_constraintEnd_toEndOf="@+id/imageView3"
+                    android:id="@+id/imgFotoPerfil"
+                    android:layout_width="107dp"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgFondo"
+                    app:layout_constraintEnd_toEndOf="@+id/imgFondo"
                     app:layout_constraintHorizontal_bias="0.4"
-                    app:layout_constraintStart_toStartOf="@+id/imageView3"
-                    app:layout_constraintTop_toTopOf="@+id/imageView3"
+                    app:layout_constraintStart_toStartOf="@+id/imgFondo"
+                    app:layout_constraintTop_toTopOf="@+id/imgFondo"
                     app:layout_constraintVertical_bias="0.875"
                     app:srcCompat="@drawable/foto_perfil" />
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/txtUsuario"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="36dp"
                     android:layout_marginTop="12dp"
-                    android:text="DanielAndy"
+                    android:text="Hola Daniel Andy"
                     android:textColor="#ffffff"
                     android:textSize="22sp"
                     android:textStyle="bold"
-                    app:layout_constraintStart_toEndOf="@+id/imageView3"
-                    app:layout_constraintTop_toTopOf="@+id/imageView3" />
+                    app:layout_constraintStart_toEndOf="@+id/imgFondo"
+                    app:layout_constraintTop_toTopOf="@+id/imgFondo" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/txtCorreo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="saraanderson@gmail.com"
                     android:textColor="#ffffff"
                     android:textSize="16sp"
-                    app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-                    app:layout_constraintStart_toStartOf="@+id/textView"
-                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+                    app:layout_constraintBottom_toBottomOf="@+id/imgFondo"
+                    app:layout_constraintStart_toStartOf="@+id/txtUsuario"
+                    app:layout_constraintTop_toBottomOf="@+id/txtUsuario"
+                    app:layout_constraintVertical_bias="0.476" />
 
                 <LinearLayout
                     android:layout_width="347dp"
@@ -117,14 +117,7 @@
                             android:textSize="16sp"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="S/. 100000"
-                            android:textAlignment="viewEnd"
-                            android:textColor="#000000"
-                            android:textStyle="bold" />
+
                     </LinearLayout>
 
                     <View
@@ -153,7 +146,6 @@
 
 
                             <TextView
-
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
@@ -161,9 +153,20 @@
                                 android:textAlignment="center"
                                 android:textColor="#8d8d8d"
                                 android:textStyle="bold" />
-
+                            <TextView
+                                android:id="@+id/txtMonedas"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="10"
+                                android:textSize="25sp"
+                                android:textAlignment="center"
+                                android:drawableEnd="@drawable/img_moneda"
+                                android:textColor="@color/ColorPrincipal1"
+                                android:textStyle="bold" />
 
                         </LinearLayout>
+
 
 
                         <LinearLayout
@@ -181,10 +184,17 @@
                                 android:textAlignment="center"
                                 android:textColor="#8d8d8d"
                                 android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/txtDonaciones"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:textSize="25sp"
+                                android:textAlignment="center"
+                                android:textColor="#000000"
+                                android:textStyle="bold" />
+
                         </LinearLayout>
-
-
-
                     </LinearLayout>
                 </LinearLayout>
 
@@ -212,26 +222,32 @@
                         android:layout_weight="0.333">
 
                         <ImageView
-                            android:id="@+id/ivNacimiento"
+                            android:id="@+id/btnAlbergue"
                             android:layout_width="50dp"
                             android:layout_height="40dp"
                             android:layout_marginStart="28dp"
                             android:layout_marginTop="16dp"
+                            android:layout_marginEnd="38dp"
                             app:layout_constraintBottom_toTopOf="@+id/txtNacimiento"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/btn_adopcion" />
+                            app:layout_constraintVertical_bias="1.0"
+                            app:srcCompat="@drawable/btn_albergue" />
 
                         <TextView
                             android:id="@+id/txtNacimiento"
                             android:layout_width="wrap_content"
                             android:layout_height="19dp"
-                            android:layout_below="@id/ivNacimiento"
+                            android:layout_below="@id/btnAlbergue"
+                            android:layout_marginTop="72dp"
                             android:text="Albergues"
                             android:textColor="#575454"
-                            app:layout_constraintEnd_toEndOf="@+id/ivNacimiento"
-                            app:layout_constraintStart_toStartOf="@+id/ivNacimiento"
-                            tools:layout_editor_absoluteY="80dp" />
+                            app:layout_constraintEnd_toEndOf="@+id/btnAlbergue"
+                            app:layout_constraintHorizontal_bias="0.142"
+                            app:layout_constraintStart_toStartOf="@+id/btnAlbergue"
+                            app:layout_constraintTop_toTopOf="parent" />
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -241,12 +257,14 @@
                         android:layout_weight="0.333">
 
                         <ImageView
-                            android:id="@+id/ivGenero"
+                            android:id="@+id/btnAdopcion"
                             android:layout_width="50dp"
                             android:layout_height="40dp"
                             android:layout_marginStart="32dp"
                             android:layout_marginTop="16dp"
+                            android:layout_marginEnd="34dp"
                             app:layout_constraintBottom_toTopOf="@+id/txtNacimiento2"
+                            app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintVertical_bias="0.583"
@@ -266,12 +284,13 @@
                             android:id="@+id/txtNacimiento2"
                             android:layout_width="wrap_content"
                             android:layout_height="19dp"
+                            android:layout_marginTop="64dp"
                             android:text="Adopción"
                             android:textColor="#575454"
-                            app:layout_constraintEnd_toEndOf="@+id/ivGenero"
-                            app:layout_constraintHorizontal_bias="0.571"
-                            app:layout_constraintStart_toStartOf="@+id/ivGenero"
-                            tools:layout_editor_absoluteY="80dp" />
+                            app:layout_constraintEnd_toEndOf="@+id/btnAdopcion"
+                            app:layout_constraintHorizontal_bias="0.333"
+                            app:layout_constraintStart_toStartOf="@+id/btnAdopcion"
+                            app:layout_constraintTop_toTopOf="parent" />
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -282,15 +301,15 @@
                         android:layout_weight="0.333">
 
                         <ImageView
-                            android:id="@+id/ivRequiere"
+                            android:id="@+id/btnJuegos"
                             android:layout_width="50dp"
                             android:layout_height="40dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toStartOf="@+id/txtRequiere"
-                            app:layout_constraintHorizontal_bias="0.648"
+                            app:layout_constraintHorizontal_bias="0.612"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/btn_adopcion" />
+                            app:srcCompat="@drawable/btn_juegos" />
 
                         <TextView
                             android:id="@+id/txtRequiere"
@@ -306,16 +325,26 @@
                             android:id="@+id/txtNacimiento3"
                             android:layout_width="wrap_content"
                             android:layout_height="19dp"
+                            android:layout_marginTop="40dp"
                             android:text="Juegos"
                             android:textColor="#575454"
-                            app:layout_constraintEnd_toEndOf="@+id/ivRequiere"
-                            app:layout_constraintStart_toStartOf="@+id/ivRequiere"
-                            tools:layout_editor_absoluteY="80dp" />
+                            app:layout_constraintEnd_toEndOf="@+id/btnJuegos"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/btnJuegos"
+                            app:layout_constraintTop_toTopOf="@+id/btnJuegos" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
 
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtVerMas"
+                android:layout_width="375dp"
+                android:layout_height="30dp"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:text="Ver todo>" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -351,15 +380,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Mi cuenta"
+                        android:text="Donaciones Recientes"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
+                        android:id="@+id/txtDonacionesRecientes"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="1,234,567 $"
+                        android:text="+ S/10.00"
                         android:textAlignment="viewEnd"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -374,15 +404,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Mi cuenta"
+                        android:text="Total de Monedas Gastadas"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/txtMonedasGastadas"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="1,234,567 $"
+                        android:drawableEnd="@drawable/img_moneda"
+                        android:text="10"
                         android:textAlignment="viewEnd"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -397,23 +429,47 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Mi cuenta"
+                        android:text="Adopciones Totales"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/txtAdopcionesTotales"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="1,234,567 $"
+                        android:text="0"
                         android:textAlignment="viewEnd"
                         android:textColor="#000000"
                         android:textStyle="bold" />
                 </LinearLayout>
+
 
 
             </LinearLayout>
+            <EditText
+                android:id="@+id/edtBuscarUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="52dp"
+                android:hint="Ingresa el ID del Usuario"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="16dp" />
 
+            <Button
+                android:id="@+id/btnBuscarUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_btnadoptar"
+                android:text="Consultar"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                app:layout_constraintVertical_bias="0.939" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

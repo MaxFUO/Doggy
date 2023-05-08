@@ -11,6 +11,7 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_adoptar">Adoptar</string>
+    <string name="menu_inicio_interaz">Inicio Interfaz</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="linea_texto_debajo">___________________</string>

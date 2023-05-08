@@ -27,7 +27,11 @@
         android:name="com.example.drawer.ui.adopcionpanel.PanelAdopcion"
         android:label="@string/menu_adoptar"
         tools:layout="@layout/fragment_pnl_adopcion" />
-    
 
+    <fragment
+        android:id="@+id/nav_inicio_interfaz"
+        android:name="com.example.drawer.ui.adopcionpanel.InicioInterfaz"
+        android:label="@string/menu_inicio_interaz"
+        tools:layout="@layout/fragment_inicio_interfaz" />
 
 </navigation>
