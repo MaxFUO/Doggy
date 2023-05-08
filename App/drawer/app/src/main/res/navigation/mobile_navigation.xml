@@ -34,4 +34,10 @@
         android:label="@string/menu_inicio_interaz"
         tools:layout="@layout/fragment_inicio_interfaz" />
 
+    <fragment
+        android:id="@+id/nav_editar_inicio_interfaz"
+        android:name="com.example.drawer.ui.adopcionpanel.EditarInicioInterfaz"
+        android:label="@string/menu_editar_inicio_interfaz"
+        tools:layout="@layout/fragment_editar_inicio_interfaz" />
+
 </navigation>

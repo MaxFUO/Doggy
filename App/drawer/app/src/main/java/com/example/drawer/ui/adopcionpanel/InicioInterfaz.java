@@ -1,5 +1,6 @@
 package com.example.drawer.ui.adopcionpanel;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -42,21 +43,24 @@ public class InicioInterfaz extends Fragment {
 
 
         txtUsuario = view.findViewById(R.id.txtUsuario);
+
         txtCorreo = view.findViewById(R.id.txtCorreo);
         txtMonedas = view.findViewById(R.id.txtMonedas);
         btnBuscarUsuario = view.findViewById(R.id.btnBuscarUsuario);
         edtBuscarUsuario = view.findViewById(R.id.edtBuscarUsuario);
+
         btnBuscarUsuario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                buscarUsuarios("http://192.168.1.19:80/doggy/buscar_usuarios.php?idUsuario="+edtBuscarUsuario.getText()+"");
-
+                buscarUsuarios("http://192.168.163.1:80/doggy/buscar_usuarios.php?idUsuario="+edtBuscarUsuario.getText()+"");
+               /* 192.168.1.19:80*/
             }
         });
 
 
         return view;
     }
+
     private void buscarUsuarios(String URL) {
         JsonRequest jsonRequest = new JsonArrayRequest(URL, new Response.Listener<JSONArray>() {
             @Override
@@ -76,7 +80,6 @@ public class InicioInterfaz extends Fragment {
 
                         // Mostrar el nombre completo en el TextView
                         txtUsuario.setText(nombreCompleto);
-
                         txtCorreo.setText(jsonObject.getString("CorreoElectronicoUsu"));
                         txtMonedas.setText(jsonObject.getString("MonedasUsu"));
 
