@@ -1,4 +1,4 @@
-package com.example.drawer.ui.slideshow;
+package com.example.drawer.slideshow;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

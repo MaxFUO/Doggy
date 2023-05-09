@@ -18,14 +18,9 @@
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.drawer.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-    <fragment
         android:id="@+id/nav_lista_animales"
         android:name="com.example.drawer.ui.fragmentListaAnimales"
         android:label="@string/mostrar_animales"
-        tools:layout="@layout/fragment_lista_animales"
-        />
+        tools:layout="@layout/fragment_lista_animales" />
+    />
 </navigation>

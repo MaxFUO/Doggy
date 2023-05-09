@@ -24,12 +24,12 @@
         "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable\\side_nav_bar.xml"
     },
     {
-        "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\layout_activity_crearcuenta.xml.flat",
-        "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\activity_crearcuenta.xml"
-    },
-    {
         "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\layout_activity_crearcuenta.xml.flat",
+        "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\activity_crearcuenta.xml"
     },
     {
         "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\menu_main.xml.flat",
@@ -42,10 +42,6 @@
     {
         "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable_ic_menu_gallery.xml.flat",
         "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable\\ic_menu_gallery.xml"
-    },
-    {
-        "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\layout_fragment_recycle_mainactivity.xml.flat",
-        "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_recycle_mainactivity.xml"
     },
     {
         "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -90,10 +86,6 @@
     {
         "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\drawable_img_logo_bienvenidos.png.flat",
         "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\drawable\\img_logo_bienvenidos.png"
-    },
-    {
-        "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\layout_recycle_main_activity.xml.flat",
-        "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\recycle_main_activity.xml"
     },
     {
         "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-merged_res-37:\\layout_fragment_lista_animales.xml.flat",

@@ -2,9 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".ui.fragmentListaAnimales">
+
+
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -20,11 +23,21 @@
         android:textSize="30sp"
 
         />
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:queryHint="¿Quieres buscar a una mascota?"
+        app:iconifiedByDefault="false"
+        android:id="@+id/svBuscar"
+        />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerListaAnimales"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
 
         />
 

@@ -1,8 +1,6 @@
 package com.example.drawer.Entidades;
 
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.util.Base64;
 
 public class Animales {
     private Integer IDAnimal;
@@ -10,7 +8,7 @@ public class Animales {
     private String GeneroAni;
     private String CuidadosEspeciales;
     private String AlimentoFavorito;
-    private String PesoAni;
+    private Float PesoAni;
     private String RazaAni;
     private Integer FuerzaAni;
     private Integer VelocidadAni;
@@ -18,16 +16,13 @@ public class Animales {
     private String DesBuffAni;
     private String DebilidadAni;
     private Bitmap ImagenAnim;
-    private String RutaAnim;
+    private String RutaImagen;
     private String DescripcionAnim;
 
-    public Animales() {
+    public Animales(String s) {
     }
 
-    public Animales(Integer IDAnimal, String nombreAni, String generoAni, String cuidadosEspeciales,
-                    String alimentoFavorito, String pesoAni, String razaAni, Integer fuerzaAni,
-                    Integer velocidadAni, Integer buffAni, String desBuffAni, String debilidadAni,
-                    Bitmap imagenAnim, String rutaAnim, String descripcionAnim) {
+    public Animales(Integer IDAnimal, String nombreAni, String generoAni, String cuidadosEspeciales, String alimentoFavorito, Float pesoAni, String razaAni, Integer fuerzaAni, Integer velocidadAni, Integer buffAni, String desBuffAni, String debilidadAni, Bitmap imagenAnim, String rutaImagen, String descripcionAnim) {
         this.IDAnimal = IDAnimal;
         NombreAni = nombreAni;
         GeneroAni = generoAni;
@@ -41,7 +36,7 @@ public class Animales {
         DesBuffAni = desBuffAni;
         DebilidadAni = debilidadAni;
         ImagenAnim = imagenAnim;
-        RutaAnim = rutaAnim;
+        RutaImagen = rutaImagen;
         DescripcionAnim = descripcionAnim;
     }
 
@@ -85,11 +80,11 @@ public class Animales {
         AlimentoFavorito = alimentoFavorito;
     }
 
-    public String getPesoAni() {
+    public Float getPesoAni() {
         return PesoAni;
     }
 
-    public void setPesoAni(String pesoAni) {
+    public void setPesoAni(Float pesoAni) {
         PesoAni = pesoAni;
     }
 
@@ -149,12 +144,12 @@ public class Animales {
         ImagenAnim = imagenAnim;
     }
 
-    public String getRutaAnim() {
-        return RutaAnim;
+    public String getRutaImagen() {
+        return RutaImagen;
     }
 
-    public void setRutaAnim(String rutaAnim) {
-        RutaAnim = rutaAnim;
+    public void setRutaImagen(String rutaImagen) {
+        RutaImagen = rutaImagen;
     }
 
     public String getDescripcionAnim() {
@@ -165,16 +160,6 @@ public class Animales {
         DescripcionAnim = descripcionAnim;
     }
 
-    public void setDataImagen(String textoImagen) {
-        try {
-            byte[] bytecode = android.util.Base64.decode(textoImagen, Base64.DEFAULT);
-            this.ImagenAnim = BitmapFactory.decodeByteArray(bytecode, 0, bytecode.length);
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
     @Override
     public String toString() {
         return "Animales{" +
@@ -183,7 +168,7 @@ public class Animales {
                 ", GeneroAni='" + GeneroAni + '\'' +
                 ", CuidadosEspeciales='" + CuidadosEspeciales + '\'' +
                 ", AlimentoFavorito='" + AlimentoFavorito + '\'' +
-                ", PesoAni='" + PesoAni + '\'' +
+                ", PesoAni=" + PesoAni +
                 ", RazaAni='" + RazaAni + '\'' +
                 ", FuerzaAni=" + FuerzaAni +
                 ", VelocidadAni=" + VelocidadAni +
@@ -191,9 +176,8 @@ public class Animales {
                 ", DesBuffAni='" + DesBuffAni + '\'' +
                 ", DebilidadAni='" + DebilidadAni + '\'' +
                 ", ImagenAnim=" + ImagenAnim +
-                ", RutaAnim='" + RutaAnim + '\'' +
+                ", RutaImagen='" + RutaImagen + '\'' +
                 ", DescripcionAnim='" + DescripcionAnim + '\'' +
                 '}';
     }
-
 }

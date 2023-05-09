@@ -16,20 +16,12 @@
         "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\content_main.xml"
     },
     {
-        "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\recycle_main_activity.xml",
-        "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\recycle_main_activity.xml"
-    },
-    {
         "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\activity_main.xml",
         "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\item_lista_animal.xml",
         "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\item_lista_animal.xml"
-    },
-    {
-        "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_recycle_mainactivity.xml",
-        "source": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_recycle_mainactivity.xml"
     },
     {
         "merged": "C:\\Users\\51950\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\app_bar_main.xml",

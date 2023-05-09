@@ -73,6 +73,7 @@ id nav_lista_animales
 id nav_slideshow
 id nav_view
 id recyclerListaAnimales
+id svBuscar
 id textView
 id text_gallery
 id text_home

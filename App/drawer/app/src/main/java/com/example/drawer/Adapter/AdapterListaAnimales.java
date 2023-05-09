@@ -37,18 +37,14 @@ public class AdapterListaAnimales extends RecyclerView.Adapter<AdapterListaAnima
     public void onBindViewHolder(@NonNull AnimalHolder holder, int position) {
         //aqui obtienes la informacion guardada en la entidad
         //holder.txtNombreAlbergue.setText(listaAlbergues.get(position).getNombreAlb().toString());
-        holder.txtnombreCachorro.setText(listaAnimales.get(position).getNombreAni().toString());
-        holder.txtDescripcionCachorro.setText(listaAnimales.get(position).getDescripcionAnim().toString());
+
+        holder.txtnombreCachorro.setText(listaAnimales.get(position).getNombreAni());
+        holder.txtDescripcionCachorro.setText(listaAnimales.get(position).getDescripcionAnim());
 
         if (listaAnimales.get(position).getImagenAnim() != null)
             holder.imgFotoMascota.setImageBitmap(listaAnimales.get(position).getImagenAnim());
-
-//        if(listaAnimales.get(position).getImagenAnim()!=null)
-//
-//        else
+//       else
 //        holder.imgFotoMascota.setImageResource(R.drawable.img_gato_julian);
-
-
     }
 
     @Override
@@ -68,9 +64,10 @@ public class AdapterListaAnimales extends RecyclerView.Adapter<AdapterListaAnima
             //aqui seteas haces referencia a los objetos xml con java
             //txtNombreAlbergue = itemView.findViewById(R.id.txtNombreAlbergue);
 
-            imgFotoMascota = itemView.findViewById(R.id.imgFotoMascota1);
+
             txtnombreCachorro = itemView.findViewById(R.id.txtNombreCachorro1);
             txtDescripcionCachorro = itemView.findViewById(R.id.txtDescripcionCachorro);
+            imgFotoMascota = itemView.findViewById(R.id.imgFotoMascota1);
 
         }
     }
