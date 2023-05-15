@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tienda.unity
     guid: 2e91e18879425b64d88b97a8073e6b64
+  - enabled: 1
+    path: Assets/Scenes/Ropa.unity
+    guid: 97acb552fbabc4749ad59f8e7994fb07
   m_configObjects: {}
