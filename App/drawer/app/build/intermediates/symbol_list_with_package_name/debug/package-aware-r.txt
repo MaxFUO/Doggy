@@ -2525,6 +2525,7 @@ drawable ic_check
 drawable ic_clock_black_24dp
 drawable ic_descripcion
 drawable ic_inicio
+drawable ic_intercambio
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -2534,12 +2535,17 @@ drawable ic_m3_chip_close
 drawable ic_menu_camera
 drawable ic_menu_gallery
 drawable ic_menu_slideshow
+drawable ic_monedasoles
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_pago_yape
+drawable ic_plin
 drawable ic_rechazo
+drawable ic_transferencia
 drawable ic_usuario_editar
+drawable ic_yape
 drawable icono_configuracion
 drawable imagen_adoptar
 drawable img_moneda
@@ -2705,6 +2711,8 @@ id btnBuscarUsuario
 id btnCancelar
 id btnConsultar
 id btnEnProceso
+id btnEnviar
+id btnEnviarMonedas
 id btnGuardarCambios
 id btnJuegos
 id btnVolver
@@ -2730,6 +2738,8 @@ id chkRequisito01
 id chkRequisito02
 id chkRequisito03
 id chkRequisito04
+id chk_pago_plin
+id chk_pago_yape
 id chronometer
 id circle_center
 id clear_text
@@ -2743,6 +2753,7 @@ id confirm_button
 id constraint
 id constraintLayout
 id constraintLayout2
+id constraintLayout3
 id container
 id content
 id contentPanel
@@ -2840,7 +2851,10 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id imageView3
+id imageView4
+id imageView6
 id imageView8
 id imgEditarPerfil
 id imgFondo
@@ -2872,6 +2886,9 @@ id line3
 id linear
 id linearLayout
 id linearLayout2
+id linearLayout3
+id linearLayout4
+id linearLayout5
 id listMode
 id list_item
 id locale
@@ -2934,6 +2951,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id nav_adopcion
+id nav_comprar_monedas
 id nav_controller_view_tag
 id nav_editar_inicio_interfaz
 id nav_gallery
@@ -3262,6 +3280,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_comprar_monedas
+layout fragment_comprar_yape
+layout fragment_donar_albergues
 layout fragment_editar_inicio_interfaz
 layout fragment_gallery
 layout fragment_home
@@ -3443,6 +3464,7 @@ string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
 string menu_adoptar
+string menu_comprar_monedas
 string menu_editar_inicio_interfaz
 string menu_gallery
 string menu_home

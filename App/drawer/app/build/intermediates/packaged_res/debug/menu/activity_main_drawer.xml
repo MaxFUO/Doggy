@@ -36,5 +36,12 @@
             android:title="@string/menu_editar_inicio_interfaz"
             >
         </item>
+
+        <item
+            android:id="@+id/nav_comprar_monedas"
+            android:icon="@drawable/ic_check"
+            android:title="@string/menu_comprar_monedas"
+            >
+        </item>
     </group>
 </menu>

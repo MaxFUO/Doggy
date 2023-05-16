@@ -73,7 +73,7 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
                             android:layout_marginStart="32dp"
                             android:layout_marginEnd="32dp"
                             android:background="@drawable/background_requisitos"
@@ -358,32 +358,24 @@
                                     android:orientation="vertical">
 
                                     <CheckBox
+                                        android:id="@+id/chk_pago_yape"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:textStyle="bold"
-                                        android:drawablePadding="8dp"
-                                        android:textColor="@color/ColorPrincipal1"
                                         android:drawableStart="@drawable/ic_yape"
-                                        android:text="Yape" />
+                                        android:drawablePadding="8dp"
+                                        android:text="Yape"
+                                        android:textColor="@color/ColorPrincipal1"
+                                        android:textStyle="bold" />
 
                                     <CheckBox
+                                        android:id="@+id/chk_pago_plin"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:drawablePadding="8dp"
-                                        android:textStyle="bold"
-                                        android:textColor="@color/ColorPrincipal1"
                                         android:drawableStart="@drawable/ic_plin"
-                                        android:text="Plin" />
-
-                                    <CheckBox
-                                        android:layout_width="match_parent"
                                         android:drawablePadding="8dp"
-
+                                        android:text="Plin"
                                         android:textColor="@color/ColorPrincipal1"
-                                        android:textStyle="bold"
-                                        android:layout_height="wrap_content"
-                                        android:drawableStart="@drawable/ic_transferencia"
-                                        android:text="Transferencia" />
+                                        android:textStyle="bold" />
 
                                 </LinearLayout>
 
@@ -394,6 +386,7 @@
                     </LinearLayout>
 
                     <Button
+                        android:id="@+id/btnEnviarMonedas"
                         android:layout_width="100dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"

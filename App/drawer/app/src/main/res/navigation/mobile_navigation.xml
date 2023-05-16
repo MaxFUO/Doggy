@@ -39,5 +39,9 @@
         android:name="com.example.drawer.ui.adopcionpanel.EditarInicioInterfaz"
         android:label="@string/menu_editar_inicio_interfaz"
         tools:layout="@layout/fragment_editar_inicio_interfaz" />
-
+    <fragment
+        android:id="@+id/nav_comprar_monedas"
+        android:name="com.example.drawer.ui.adopcionpanel.ComprarMonedas"
+        android:label="@string/menu_comprar_monedas"
+        tools:layout="@layout/fragment_comprar_monedas" />
 </navigation>
