@@ -374,16 +374,6 @@
                                         android:textColor="@color/ColorPrincipal1"
                                         android:textStyle="bold" />
 
-                                    <CheckBox
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-
-                                        android:drawableStart="@drawable/ic_transferencia"
-                                        android:drawablePadding="8dp"
-                                        android:text="Transferencia"
-                                        android:textColor="@color/ColorPrincipal1"
-                                        android:textStyle="bold" />
-
                                 </LinearLayout>
 
 

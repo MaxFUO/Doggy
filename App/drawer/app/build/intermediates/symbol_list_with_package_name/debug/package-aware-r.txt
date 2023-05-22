@@ -2540,6 +2540,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_pago_plin
 drawable ic_pago_yape
 drawable ic_plin
 drawable ic_rechazo
@@ -2803,8 +2804,10 @@ id east
 id editTextIDAnimal
 id edit_query
 id edtBuscarUsuario
+id edtEditarApellidos
 id edtEditarContraseña
 id edtEditarCorreo
+id edtEditarEdad
 id edtEditarNombre
 id edtEditarNumero
 id edtIdUsuario
@@ -2854,7 +2857,6 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
-id imageView6
 id imageView8
 id imgEditarPerfil
 id imgFondo
@@ -3136,6 +3138,7 @@ id triangle
 id txtAdopcionesTotales
 id txtCorreo
 id txtDescripcionMascota
+id txtDinero
 id txtDonaciones
 id txtDonacionesRecientes
 id txtGenero
@@ -3287,6 +3290,7 @@ layout fragment_editar_inicio_interfaz
 layout fragment_gallery
 layout fragment_home
 layout fragment_inicio_interfaz
+layout fragment_pago_plin
 layout fragment_pnl_adopcion
 layout fragment_pnl_confirmacion
 layout fragment_pnl_rechazo

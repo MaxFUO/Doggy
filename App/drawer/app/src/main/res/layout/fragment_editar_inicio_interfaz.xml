@@ -121,6 +121,38 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="ID del Usuario:"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/edtIdUsuario"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:hint="12345"
+                                android:textAlignment="viewEnd"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@color/ColorPrincipal1" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="10dp"
@@ -155,6 +187,75 @@
                             android:layout_marginEnd="10dp"
                             android:background="@color/ColorPrincipal1" />
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Apellidos:"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/edtEditarApellidos"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:hint="Change"
+                                android:textAlignment="viewEnd"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@color/ColorPrincipal1"></View>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Edad:"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/edtEditarEdad"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:hint="Change"
+                                android:textAlignment="viewEnd"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@color/ColorPrincipal1"></View>
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -254,33 +355,6 @@
                             android:layout_marginEnd="10dp"
                             android:background="@color/ColorPrincipal1"></View>
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_margin="10dp"
-                            android:layout_weight="1"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="ID del Usuario:"
-                                android:textColor="@color/black"
-                                android:textSize="15sp"
-                                android:textStyle="bold" />
-
-                            <EditText
-                                android:id="@+id/edtIdUsuario"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:hint="12345"
-                                android:textAlignment="viewEnd"
-                                android:textSize="12sp" />
-
-                        </LinearLayout>
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -288,7 +362,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="24dp"
-                        android:layout_marginTop="420dp"
+                        android:layout_marginTop="550dp"
                         android:layout_marginEnd="24dp"
                         android:orientation="vertical"
                         android:paddingBottom="10dp"

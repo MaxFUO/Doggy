@@ -83,7 +83,7 @@ public class PanelAdopcion extends Fragment {
         btnConsultar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                buscarAnimales("http://192.168.1.19:80/doggy/buscar_datos.php?idAnimal="+txtIdMascota.getText()+"");
+                buscarAnimales("http://192.168.1.9:80/doggy/buscar_datos.php?idAnimal="+txtIdMascota.getText()+"");
             }
         });
 

@@ -40,10 +40,7 @@ public class InicioInterfaz extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_inicio_interfaz, container, false);
-
-
         txtUsuario = view.findViewById(R.id.txtUsuario);
-
         txtCorreo = view.findViewById(R.id.txtCorreo);
         txtMonedas = view.findViewById(R.id.txtMonedas);
         btnBuscarUsuario = view.findViewById(R.id.btnBuscarUsuario);
@@ -52,7 +49,7 @@ public class InicioInterfaz extends Fragment {
         btnBuscarUsuario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                buscarUsuarios("http://192.168.163.1:80/doggy/buscar_usuarios.php?idUsuario="+edtBuscarUsuario.getText()+"");
+                buscarUsuarios("http://192.168.1.9:80/doggy/buscar_usuarios.php?idUsuario="+edtBuscarUsuario.getText()+"");
                /* 192.168.1.19:80*/
             }
         });

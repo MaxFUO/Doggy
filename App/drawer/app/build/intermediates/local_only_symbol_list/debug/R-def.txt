@@ -42,6 +42,7 @@ drawable ic_menu_camera
 drawable ic_menu_gallery
 drawable ic_menu_slideshow
 drawable ic_monedasoles
+drawable ic_pago_plin
 drawable ic_pago_yape
 drawable ic_plin
 drawable ic_rechazo
@@ -86,8 +87,10 @@ id constraintLayout3
 id drawer_layout
 id editTextIDAnimal
 id edtBuscarUsuario
+id edtEditarApellidos
 id edtEditarContraseña
 id edtEditarCorreo
+id edtEditarEdad
 id edtEditarNombre
 id edtEditarNumero
 id edtIdUsuario
@@ -96,7 +99,6 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
-id imageView6
 id imageView8
 id imgEditarPerfil
 id imgFondo
@@ -131,6 +133,7 @@ id toolbar
 id txtAdopcionesTotales
 id txtCorreo
 id txtDescripcionMascota
+id txtDinero
 id txtDonaciones
 id txtDonacionesRecientes
 id txtGenero
@@ -158,6 +161,7 @@ layout fragment_editar_inicio_interfaz
 layout fragment_gallery
 layout fragment_home
 layout fragment_inicio_interfaz
+layout fragment_pago_plin
 layout fragment_pnl_adopcion
 layout fragment_pnl_confirmacion
 layout fragment_pnl_rechazo

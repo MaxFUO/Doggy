@@ -13,6 +13,12 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.example.drawer.R;
 
 import java.io.BufferedReader;
@@ -23,68 +29,64 @@ import java.net.URL;
 
 public class EditarInicioInterfaz extends Fragment {
 
-    EditText edtUsuario, edtEditarNombre, edtEditarNumero, edtEditarCorreo, edtEditarContraseña;
+    EditText edtUsuario, edtEditarNombre, edtEditarApellidos, edtEditarEdad, edtEditarNumero, edtEditarCorreo, edtEditarContraseña;
     Button btnVolver, btnGuardarCambios;
 
-    String url = "http://192.168.163.1:80/doggy/actualizar_datos_usuarios.php";
-
     @Override
-
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_editar_inicio_interfaz, container, false);
 
-
         edtUsuario = view.findViewById(R.id.edtIdUsuario);
         edtEditarNombre = view.findViewById(R.id.edtEditarNombre);
+        edtEditarApellidos = view.findViewById(R.id.edtEditarApellidos);
+        edtEditarEdad = view.findViewById(R.id.edtEditarEdad);
         edtEditarNumero = view.findViewById(R.id.edtEditarNumero);
         edtEditarCorreo = view.findViewById(R.id.edtEditarCorreo);
         edtEditarContraseña = view.findViewById(R.id.edtEditarContraseña);
+        btnVolver = view.findViewById(R.id.btnVolver);
         btnGuardarCambios = view.findViewById(R.id.btnGuardarCambios);
+
         btnGuardarCambios.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editarInformacionUsuario("http://192.168.163.1:80/doggy/actualizar_datos_usuarios.php?idUsuario="+edtUsuario.getText()+"");
-                /* 192.168.1.19:80*/
+                String id = edtUsuario.getText().toString();
+                String nombre = edtEditarNombre.getText().toString();
+                String apellidos = edtEditarApellidos.getText().toString();
+                String edad = edtEditarEdad.getText().toString();
+                String numero = edtEditarNumero.getText().toString();
+                String correo = edtEditarCorreo.getText().toString();
+                String contraseña = edtEditarContraseña.getText().toString();
+
+                String url = "http://192.168.1.9:80/doggy/insertar_datos.php?id=" + id +
+                        "&nombre=" + nombre +
+                        "&apellido=" + apellidos +
+                        "&edad=" + edad +
+                        "&telefono=" + numero +
+                        "&correo=" + correo +
+                        "&contrasena=" + contraseña;
+
+                actualizarUsuario(url);
             }
         });
+
         return view;
     }
-    private void editarInformacionUsuario(String URL) {
-        try {
-            URL obj = new URL(url);
 
-            // Inicializar una conexión HTTP
-            HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-
-            // Especificar que se va a enviar una solicitud POST
-            con.setRequestMethod("POST");
-
-            // Especificar los parámetros a enviar en la solicitud
-            String urlParameters = "IDUsuario=" + edtUsuario.getText() + "&NombreUsu=" + edtEditarNombre.getText() + "&NumeroTelefonoUsu=" + edtEditarNumero.getText() + "&CorreoElectronicoUsu=" + edtEditarCorreo.getText() + "&ContraseñaUsu=" + edtEditarContraseña.getText();
-
-            // Enviar los parámetros en el cuerpo de la solicitud
-            con.setDoOutput(true);
-            DataOutputStream wr = new DataOutputStream(con.getOutputStream());
-            wr.writeBytes(urlParameters);
-            wr.flush();
-            wr.close();
-
-            // Leer la respuesta del servidor
-            BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
-            String inputLine;
-            StringBuffer response = new StringBuffer();
-            while ((inputLine = in.readLine()) != null) {
-                response.append(inputLine);
+    private void actualizarUsuario(String url) {
+        RequestQueue requestQueue = Volley.newRequestQueue(getContext());
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                Toast.makeText(getContext(), "Actualización exitosa", Toast.LENGTH_SHORT).show();
             }
-            in.close();
-
-            // Mostrar la respuesta del servidor en un mensaje de texto
-            Toast.makeText(getContext(), response.toString(), Toast.LENGTH_LONG).show();
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                error.printStackTrace();
+            }
+        });
+        requestQueue.add(stringRequest);
     }
 }
+
