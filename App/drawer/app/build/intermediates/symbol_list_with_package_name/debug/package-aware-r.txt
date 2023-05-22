@@ -2524,6 +2524,7 @@ drawable ic_adopcion
 drawable ic_check
 drawable ic_clock_black_24dp
 drawable ic_descripcion
+drawable ic_fondo_albergue
 drawable ic_inicio
 drawable ic_intercambio
 drawable ic_keyboard_black_24dp
@@ -2532,6 +2533,7 @@ drawable ic_launcher_foreground
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
+drawable ic_mapa
 drawable ic_menu_camera
 drawable ic_menu_gallery
 drawable ic_menu_slideshow
@@ -2711,6 +2713,7 @@ id btnAlbergue
 id btnBuscarUsuario
 id btnCancelar
 id btnConsultar
+id btnConsultarAlbergue
 id btnEnProceso
 id btnEnviar
 id btnEnviarMonedas
@@ -2810,6 +2813,7 @@ id edtEditarCorreo
 id edtEditarEdad
 id edtEditarNombre
 id edtEditarNumero
+id edtIdAlbergue
 id edtIdUsuario
 id elastic
 id end
@@ -2857,7 +2861,9 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView7
 id imageView8
+id imgAlbergue
 id imgEditarPerfil
 id imgFondo
 id imgFotoPerfil
@@ -2954,6 +2960,7 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id nav_adopcion
 id nav_comprar_monedas
+id nav_contacto_Albergue
 id nav_controller_view_tag
 id nav_editar_inicio_interfaz
 id nav_gallery
@@ -3103,6 +3110,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView10
+id textView14
 id textView2
 id textView4
 id text_gallery
@@ -3137,6 +3146,8 @@ id transition_transform
 id triangle
 id txtAdopcionesTotales
 id txtCorreo
+id txtCorreoElectronico
+id txtDescripcionAlbergue
 id txtDescripcionMascota
 id txtDinero
 id txtDonaciones
@@ -3147,10 +3158,13 @@ id txtMonedasGastadas
 id txtNacimiento
 id txtNacimiento2
 id txtNacimiento3
+id txtNombreAlbergue
 id txtNombreMascota
+id txtNumeroContacto
 id txtRequiere
 id txtTotalAdopciones
 id txtTotalDonaciones
+id txtUbicacionAlbergue
 id txtUsuario
 id txtVerMas
 id unchecked
@@ -3161,6 +3175,8 @@ id useLogo
 id vContenedor
 id vContenedor2
 id vertical_only
+id view
+id view2
 id view5
 id view_offset_helper
 id view_transition
@@ -3285,6 +3301,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_comprar_monedas
 layout fragment_comprar_yape
+layout fragment_contacto_albergue
 layout fragment_donar_albergues
 layout fragment_editar_inicio_interfaz
 layout fragment_gallery
@@ -3469,6 +3486,7 @@ string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
 string menu_adoptar
 string menu_comprar_monedas
+string menu_contacto_albergue
 string menu_editar_inicio_interfaz
 string menu_gallery
 string menu_home

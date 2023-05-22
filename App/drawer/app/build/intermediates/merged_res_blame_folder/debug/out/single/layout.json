@@ -1,70 +1,74 @@
 [
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\app_bar_main.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\app_bar_main.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_pago_plin.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_pago_plin.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_pnl_adopcion.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_pnl_adopcion.xml"
     },
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_donar_albergues.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_donar_albergues.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_comprar_monedas.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_comprar_monedas.xml"
     },
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_editar_inicio_interfaz.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_editar_inicio_interfaz.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_donar_albergues.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_donar_albergues.xml"
     },
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_inicio_interfaz.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_inicio_interfaz.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_comprar_yape.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_comprar_yape.xml"
     },
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_pago_plin.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_pago_plin.xml"
     },
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\content_main.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\content_main.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_editar_inicio_interfaz.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_editar_inicio_interfaz.xml"
     },
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_pnl_adopcion.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_pnl_adopcion.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\content_main.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\content_main.xml"
     },
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_pnl_confirmacion.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_pnl_confirmacion.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\nav_header_main.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\nav_header_main.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_contacto_albergue.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_contacto_albergue.xml"
     },
     {
-        "merged": "com.example.drawer.app-mergeDebugResources-36:/layout/fragment_comprar_yape.xml",
-        "source": "com.example.drawer.app-main-39:/layout/fragment_comprar_yape.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_pnl_confirmacion.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_pnl_confirmacion.xml"
     },
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_comprar_monedas.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_comprar_monedas.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_comprar_yape.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_comprar_yape.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_pnl_rechazo.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_pnl_rechazo.xml"
     },
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_gallery.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_gallery.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_inicio_interfaz.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_inicio_interfaz.xml"
     },
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_slideshow.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_slideshow.xml"
+        "merged": "com.example.drawer.app-mergeDebugResources-36:/layout/fragment_contacto_albergue.xml",
+        "source": "com.example.drawer.app-main-39:/layout/fragment_contacto_albergue.xml"
     },
     {
-        "merged": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_pnl_rechazo.xml",
-        "source": "C:\\Users\\alanp\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_pnl_rechazo.xml"
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-36:\\layout\\fragment_slideshow.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-39:\\layout\\fragment_slideshow.xml"
     }
 ]

@@ -44,4 +44,10 @@
         android:name="com.example.drawer.ui.adopcionpanel.ComprarMonedas"
         android:label="@string/menu_comprar_monedas"
         tools:layout="@layout/fragment_comprar_monedas" />
+
+    <fragment
+        android:id="@+id/nav_contacto_Albergue"
+        android:name="com.example.drawer.ui.Albergue.ContactoAlbergue"
+        android:label="@string/menu_contacto_albergue"
+        tools:layout="@layout/fragment_contacto_albergue" />
 </navigation>

@@ -39,8 +39,15 @@
 
         <item
             android:id="@+id/nav_comprar_monedas"
-            android:icon="@drawable/ic_check"
+            android:icon="@drawable/ic_adopcion"
             android:title="@string/menu_comprar_monedas"
+            >
+        </item>
+
+        <item
+            android:id="@+id/nav_contacto_Albergue"
+            android:icon="@drawable/ic_action_name"
+            android:title="@string/menu_contacto_albergue"
             >
         </item>
     </group>
