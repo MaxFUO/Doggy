@@ -36,7 +36,7 @@ public class Ropas : MonoBehaviour
     }
     public void enviarPlayer(string nombreNivel)
     {
-        PrefabUtility.SaveAsPrefabAsset(player, "Assets/Prefabs/Player.prefab");
+        PrefabUtility.SaveAsPrefabAsset(player, "Assets/Prefabs/Animal.prefab");
         SceneManager.LoadScene(nombreNivel);
     }
 }
