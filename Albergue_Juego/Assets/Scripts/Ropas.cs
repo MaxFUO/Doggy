@@ -14,8 +14,11 @@ public class Ropas : MonoBehaviour
     [Header("Lista de Ropas")]
     public List<Sprite> listaRopa = new List<Sprite>();
 
-    private int opcioncontador = 0; 
+    public int opcioncontador = 0;
 
+    void Update(){
+        parteCuerpo.sprite = listaRopa[opcioncontador];
+    }
     public void Siguiete()
     {
         opcioncontador++;

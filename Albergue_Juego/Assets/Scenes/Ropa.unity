@@ -123,96 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &271921732 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7976012967726126788, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-  m_PrefabInstance: {fileID: 347041760}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &347041760
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 28079093856478091, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 28079093856478091, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 701142707380941565, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.5575434
-      objectReference: {fileID: 0}
-    - target: {fileID: 701142707380941565, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.128788
-      objectReference: {fileID: 0}
-    - target: {fileID: 1815900165729478946, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9999908
-      objectReference: {fileID: 0}
-    - target: {fileID: 1815900165729478946, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.0042932327
-      objectReference: {fileID: 0}
-    - target: {fileID: 1815900165729478946, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.492
-      objectReference: {fileID: 0}
-    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -12.761094
-      objectReference: {fileID: 0}
-    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7976012967726126788, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-      propertyPath: m_Name
-      value: Animal
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8ef92641192bfe54da5884568de95527, type: 3}
 --- !u!1 &387204602
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,7 +411,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1106154897}
-        m_TargetAssemblyTypeName: Ropas, Assembly-CSharp
+        m_TargetAssemblyTypeName: Skins, Assembly-CSharp
         m_MethodName: enviarPlayer
         m_Mode: 5
         m_Arguments:
@@ -785,7 +695,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1106154897}
-        m_TargetAssemblyTypeName: Ropas, Assembly-CSharp
+        m_TargetAssemblyTypeName: Skins, Assembly-CSharp
         m_MethodName: Siguiete
         m_Mode: 1
         m_Arguments:
@@ -1104,6 +1014,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 564459519}
   m_CullTransparentMesh: 1
+--- !u!212 &587105136 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1922656531429607119, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+  m_PrefabInstance: {fileID: 621203401}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &621203401
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.3214955
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.15320387
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.761094
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245654469340513905, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7976012967726126788, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+      propertyPath: m_Name
+      value: Animal
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8ef92641192bfe54da5884568de95527, type: 3}
 --- !u!1 &661749285
 GameObject:
   m_ObjectHideFlags: 0
@@ -1254,7 +1226,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1106154897}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Ropas, Assembly-CSharp
         m_MethodName: Anterior
         m_Mode: 1
@@ -1304,11 +1276,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661749285}
   m_CullTransparentMesh: 1
---- !u!212 &691720029 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 28079093856478091, guid: 8ef92641192bfe54da5884568de95527, type: 3}
-  m_PrefabInstance: {fileID: 347041760}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &796128449
 GameObject:
   m_ObjectHideFlags: 0
@@ -1459,7 +1426,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1106154897}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Ropas, Assembly-CSharp
         m_MethodName: Siguiete
         m_Mode: 1
@@ -1585,6 +1552,11 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!1 &1015553583 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7976012967726126788, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+  m_PrefabInstance: {fileID: 621203401}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1057041311
 GameObject:
   m_ObjectHideFlags: 0
@@ -1736,7 +1708,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1106154897}
-        m_TargetAssemblyTypeName: Ropas, Assembly-CSharp
+        m_TargetAssemblyTypeName: Skins, Assembly-CSharp
         m_MethodName: Anterior
         m_Mode: 1
         m_Arguments:
@@ -1834,16 +1806,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1106154895}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e6ad958c9542b44a3e53a5915d4635, type: 3}
+  m_Script: {fileID: 11500000, guid: 003f9cd06a7f62a4487b179016665961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 271921732}
-  parteCuerpo: {fileID: 691720029}
+  animal: {fileID: 1015553583}
+  parteCuerpoPerro: {fileID: 1148419952}
+  parteCuerpoGato: {fileID: 587105136}
   listaRopa:
   - {fileID: 0}
   - {fileID: 21300000, guid: ec51bec502388604da2146c0172d120a, type: 3}
   - {fileID: 21300000, guid: 1880f75214e053e409f63f45851f7124, type: 3}
   - {fileID: 21300000, guid: 818394a6dea42d04cb40e0eafcb92f3c, type: 3}
+  opcioncontador: 0
+--- !u!212 &1148419952 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 28079093856478091, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+  m_PrefabInstance: {fileID: 621203401}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1172904404
 GameObject:
   m_ObjectHideFlags: 0
@@ -2999,7 +2978,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1106154897}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Ropas, Assembly-CSharp
         m_MethodName: Anterior
         m_Mode: 1
@@ -3471,7 +3450,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1106154897}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Ropas, Assembly-CSharp
         m_MethodName: Siguiete
         m_Mode: 1

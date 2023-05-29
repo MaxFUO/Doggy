@@ -57,7 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CambiarScena.cs" />
+    <Compile Include="Assets\Scripts\PosicionAnimal.cs" />
     <Compile Include="Assets\Scripts\CroquetasComp.cs" />
+    <Compile Include="Assets\Scripts\Skins.cs" />
     <Compile Include="Assets\Scripts\Ropas.cs" />
     <Compile Include="Assets\Scripts\EnviarPlayer.cs" />
     <Compile Include="Assets\Scripts\GeneradorCroquetas.cs" />

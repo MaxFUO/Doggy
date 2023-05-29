@@ -8,16 +8,17 @@ public class GeneradorHearth : MonoBehaviour
     public Transform[] generadorPuntos;
     public float VelocidadGeneracion;
 
-    void Start()
+    private void OnMouseDown()
     {
-        InvokeRepeating("GeneradorCorazones", VelocidadGeneracion, 1f);
+        InvokeRepeating("GeneradorCorazones", VelocidadGeneracion, VelocidadGeneracion);
+        print("Hiciste un click");
+    }
+    private void OnMouseUp()
+    {
+        CancelInvoke("GeneradorCorazones");
+        print("Dejaste de hacer click");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void GeneradorCorazones()
     {
         Instantiate(Corazonaprefab, generadorPuntos[Random.Range(0, generadorPuntos.Length)].position, Quaternion.identity);
