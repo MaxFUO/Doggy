@@ -12,18 +12,24 @@ $json=array();
 	$resultado=mysqli_query($conexion,$consulta);
 		
 	if($registro=mysqli_fetch_array($resultado)){
-		$result["IDAlbergue"]=$registro['IDAlbergue'];
+		$result["ID_Albergue"]=$registro['ID_Albergue'];
 		$result["NombreAlb"]=$registro['NombreAlb'];
+		$result["HoraAperturaAlb"]=$registro['HoraAperturaAlb'];
 		$result["LatitudAlb"]=$registro['LatitudAlb'];
 		$result["LongitudAlb"]=$registro['LongitudAlb'];
-		$result["HoraAperturaAlb"]=$registro['HoraAperturaAlb'];
+		$result["NumeroTelf"]=$registro['NumeroTelf'];
+		$result["Direccion"]=$registro['Direccion'];
+		$result["CorreoElectronico"]=$registro['CorreoElectronico'];
 		$json['albergue'][]=$result;
 	}else{
-		$resultar["IDAlbergue"]=0;
+		$resultar["ID_Albergue"]=0;
 		$resultar["NombreAlb"]='no registra';
+		$resultar["HoraAperturaAlb"]='no registra';
 		$resultar["LatitudAlb"]='no registra';
 		$resultar["LongitudAlb"]='no registra';
-		$resultar["HoraAperturaAlb"]='no registra';
+		$result["NumeroTelf"]=0;
+		$result["Direccion"]='no registra';
+		$result["CorreoElectronico"]='no registra';
 		$json['albergue'][]=$resultar;
 	}
 	

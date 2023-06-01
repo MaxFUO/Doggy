@@ -377,6 +377,7 @@
 "Assets/Scripts/GeneradorCroquetas.cs"
 "Assets/Scripts/GeneradorHearth.cs"
 "Assets/Scripts/MovHearth.cs"
+"Assets/Scripts/ObtenerAnimal.cs"
 "Assets/Scripts/OnClikDetected.cs"
 "Assets/Scripts/PosicionAnimal.cs"
 "Assets/Scripts/Ropas.cs"

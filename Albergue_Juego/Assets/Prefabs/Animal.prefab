@@ -378,7 +378,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7904866772706437306}
   - component: {fileID: 5837602937322370689}
-  - component: {fileID: 4246953294767586073}
   m_Layer: 0
   m_Name: PataIzquierdaSprite
   m_TagString: Untagged
@@ -453,25 +452,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4246953294767586073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2615263542780940416}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e6ad958c9542b44a3e53a5915d4635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7976012967726126788}
-  parteCuerpo: {fileID: 5837602937322370689}
-  listaRopa:
-  - {fileID: 1511537639, guid: 3017a716f23c6a74f8b2e9329480c89b, type: 3}
-  - {fileID: -1268313741, guid: ce0edcb5df94a644f968cdfd7ec3d26c, type: 3}
-  - {fileID: 1060788390, guid: 405c91efe0248d84da89fc996684fd7a, type: 3}
-  opcioncontador: 0
 --- !u!1 &2752057964189856186
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,7 +493,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2752057964189856186}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -711,7 +691,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2266315128724531712}
   - component: {fileID: 3072733902404727707}
-  - component: {fileID: 8033823430872016342}
   m_Layer: 0
   m_Name: PataTraceraIzquierdaSprite
   m_TagString: Untagged
@@ -786,27 +765,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8033823430872016342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3936706942988115774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e6ad958c9542b44a3e53a5915d4635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7976012967726126788}
-  parteCuerpo: {fileID: 3072733902404727707}
-  listaRopa:
-  - {fileID: -38842995, guid: 9f004233cac05e54bb00f4ead681a489, type: 3}
-  - {fileID: -1320557900, guid: bdc9d86f9fc1189489ded501dab3400d, type: 3}
-  - {fileID: -1961502036, guid: ef13e825efcd9ca42ad331c71283d00a, type: 3}
-  - {fileID: 748125401, guid: 8b44a32b3be96cc4681fc97486577692, type: 3}
-  - {fileID: -2066724523, guid: 526dfb0cd2f04a8418298a52d3d59ed4, type: 3}
-  opcioncontador: 0
 --- !u!1 &4118037524380916505
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,7 +838,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1703762045551306343}
   - component: {fileID: 8002763345452032936}
-  - component: {fileID: 1064923224737305935}
   m_Layer: 0
   m_Name: PataIzquierdaSprite
   m_TagString: Untagged
@@ -955,27 +912,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1064923224737305935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4433207119534967748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e6ad958c9542b44a3e53a5915d4635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7976012967726126788}
-  parteCuerpo: {fileID: 8002763345452032936}
-  listaRopa:
-  - {fileID: -1865588906, guid: 9f004233cac05e54bb00f4ead681a489, type: 3}
-  - {fileID: -2001297057, guid: bdc9d86f9fc1189489ded501dab3400d, type: 3}
-  - {fileID: -67351598, guid: ef13e825efcd9ca42ad331c71283d00a, type: 3}
-  - {fileID: 112294867, guid: 8b44a32b3be96cc4681fc97486577692, type: 3}
-  - {fileID: -1047061351, guid: 526dfb0cd2f04a8418298a52d3d59ed4, type: 3}
-  opcioncontador: 0
 --- !u!1 &4709256889692167594
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,7 +954,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7130692666391257931}
   - component: {fileID: 3056924198382380811}
-  - component: {fileID: 9053618795623284503}
   m_Layer: 0
   m_Name: CuerpoSprite
   m_TagString: Untagged
@@ -1093,25 +1028,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &9053618795623284503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4736588403994892635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e6ad958c9542b44a3e53a5915d4635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7976012967726126788}
-  parteCuerpo: {fileID: 3056924198382380811}
-  listaRopa:
-  - {fileID: 1934816388, guid: 3017a716f23c6a74f8b2e9329480c89b, type: 3}
-  - {fileID: -1086538269, guid: ce0edcb5df94a644f968cdfd7ec3d26c, type: 3}
-  - {fileID: -483843453, guid: 405c91efe0248d84da89fc996684fd7a, type: 3}
-  opcioncontador: 0
 --- !u!1 &4909303315850172119
 GameObject:
   m_ObjectHideFlags: 0
@@ -1122,7 +1038,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7128229283472195789}
   - component: {fileID: 6386903610419037747}
-  - component: {fileID: 7980025327511452706}
   m_Layer: 0
   m_Name: CabezaSprite
   m_TagString: Untagged
@@ -1197,27 +1112,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7980025327511452706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4909303315850172119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e6ad958c9542b44a3e53a5915d4635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7976012967726126788}
-  parteCuerpo: {fileID: 6386903610419037747}
-  listaRopa:
-  - {fileID: 840821851, guid: 9f004233cac05e54bb00f4ead681a489, type: 3}
-  - {fileID: -274837480, guid: bdc9d86f9fc1189489ded501dab3400d, type: 3}
-  - {fileID: -303753439, guid: ef13e825efcd9ca42ad331c71283d00a, type: 3}
-  - {fileID: -1965769979, guid: 8b44a32b3be96cc4681fc97486577692, type: 3}
-  - {fileID: 926310121, guid: 526dfb0cd2f04a8418298a52d3d59ed4, type: 3}
-  opcioncontador: 0
 --- !u!1 &5092340843200874485
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,7 +1184,6 @@ GameObject:
   m_Component:
   - component: {fileID: 945177419512924939}
   - component: {fileID: 1450009292609546743}
-  - component: {fileID: 1565036069852517418}
   m_Layer: 0
   m_Name: ColaSprite
   m_TagString: Untagged
@@ -1365,27 +1258,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1565036069852517418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5127480445318158256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e6ad958c9542b44a3e53a5915d4635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7976012967726126788}
-  parteCuerpo: {fileID: 1450009292609546743}
-  listaRopa:
-  - {fileID: 2044445220, guid: 9f004233cac05e54bb00f4ead681a489, type: 3}
-  - {fileID: 991579159, guid: bdc9d86f9fc1189489ded501dab3400d, type: 3}
-  - {fileID: -1712899871, guid: ef13e825efcd9ca42ad331c71283d00a, type: 3}
-  - {fileID: -316139063, guid: 8b44a32b3be96cc4681fc97486577692, type: 3}
-  - {fileID: 1520220312, guid: 526dfb0cd2f04a8418298a52d3d59ed4, type: 3}
-  opcioncontador: 0
 --- !u!1 &5158594096024285958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,7 +1268,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5644069861199307671}
   - component: {fileID: 8864571678378786819}
-  - component: {fileID: 4776225844935780007}
   m_Layer: 0
   m_Name: PataTraceraDerechaSprite
   m_TagString: Untagged
@@ -1471,27 +1342,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4776225844935780007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5158594096024285958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e6ad958c9542b44a3e53a5915d4635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7976012967726126788}
-  parteCuerpo: {fileID: 8864571678378786819}
-  listaRopa:
-  - {fileID: 1119836613, guid: 9f004233cac05e54bb00f4ead681a489, type: 3}
-  - {fileID: 2027907174, guid: bdc9d86f9fc1189489ded501dab3400d, type: 3}
-  - {fileID: 1198202258, guid: ef13e825efcd9ca42ad331c71283d00a, type: 3}
-  - {fileID: -900180897, guid: 8b44a32b3be96cc4681fc97486577692, type: 3}
-  - {fileID: -507730059, guid: 526dfb0cd2f04a8418298a52d3d59ed4, type: 3}
-  opcioncontador: 0
 --- !u!1 &5395213740481827575
 GameObject:
   m_ObjectHideFlags: 0
@@ -1671,7 +1521,7 @@ MonoBehaviour:
   - {fileID: 499739592715373056}
   m_Bounds:
     m_Center: {x: 0.67362547, y: -0.91327834, z: 0}
-    m_Extent: {x: 2.0825582, y: 2.2277365, z: 0}
+    m_Extent: {x: 2.0825582, y: 2.2277362, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -1716,7 +1566,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8606497451335474914}
   - component: {fileID: 6829491929928546109}
-  - component: {fileID: 3103896939038399132}
   m_Layer: 0
   m_Name: PataTraceraIzquierdaSprite
   m_TagString: Untagged
@@ -1791,25 +1640,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3103896939038399132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5978510160128483669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e6ad958c9542b44a3e53a5915d4635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7976012967726126788}
-  parteCuerpo: {fileID: 6829491929928546109}
-  listaRopa:
-  - {fileID: -1056192905, guid: 3017a716f23c6a74f8b2e9329480c89b, type: 3}
-  - {fileID: 1937593690, guid: ce0edcb5df94a644f968cdfd7ec3d26c, type: 3}
-  - {fileID: 659472741, guid: 405c91efe0248d84da89fc996684fd7a, type: 3}
-  opcioncontador: 0
 --- !u!1 &6349621297997329979
 GameObject:
   m_ObjectHideFlags: 0
@@ -1915,7 +1745,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2007057307933432623}
   - component: {fileID: 9209025214469128195}
-  - component: {fileID: 6116444517014970481}
   m_Layer: 0
   m_Name: PataTraceraDerechaSprite
   m_TagString: Untagged
@@ -1990,25 +1819,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6116444517014970481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6498641467919518388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e6ad958c9542b44a3e53a5915d4635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7976012967726126788}
-  parteCuerpo: {fileID: 9209025214469128195}
-  listaRopa:
-  - {fileID: 857126434, guid: 3017a716f23c6a74f8b2e9329480c89b, type: 3}
-  - {fileID: -1553273695, guid: ce0edcb5df94a644f968cdfd7ec3d26c, type: 3}
-  - {fileID: 1777969265, guid: 405c91efe0248d84da89fc996684fd7a, type: 3}
-  opcioncontador: 0
 --- !u!1 &6771498208061868321
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,7 +1829,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3758573286617056908}
   - component: {fileID: 902254548102935622}
-  - component: {fileID: 1487758349057463634}
   m_Layer: 0
   m_Name: PataDerechaSprite
   m_TagString: Untagged
@@ -2094,27 +1903,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1487758349057463634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6771498208061868321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e6ad958c9542b44a3e53a5915d4635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7976012967726126788}
-  parteCuerpo: {fileID: 902254548102935622}
-  listaRopa:
-  - {fileID: -1188085515, guid: 9f004233cac05e54bb00f4ead681a489, type: 3}
-  - {fileID: -514886333, guid: bdc9d86f9fc1189489ded501dab3400d, type: 3}
-  - {fileID: 1890584958, guid: ef13e825efcd9ca42ad331c71283d00a, type: 3}
-  - {fileID: -823121074, guid: 8b44a32b3be96cc4681fc97486577692, type: 3}
-  - {fileID: -604838444, guid: 526dfb0cd2f04a8418298a52d3d59ed4, type: 3}
-  opcioncontador: 0
 --- !u!1 &6913182929117890059
 GameObject:
   m_ObjectHideFlags: 0
@@ -2125,7 +1913,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4846105609476764168}
   - component: {fileID: 2247583035810116783}
-  - component: {fileID: 6759281379572699399}
   m_Layer: 0
   m_Name: CuerpoSprite
   m_TagString: Untagged
@@ -2200,27 +1987,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6759281379572699399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6913182929117890059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e6ad958c9542b44a3e53a5915d4635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7976012967726126788}
-  parteCuerpo: {fileID: 2247583035810116783}
-  listaRopa:
-  - {fileID: 535533000, guid: 9f004233cac05e54bb00f4ead681a489, type: 3}
-  - {fileID: 259770285, guid: bdc9d86f9fc1189489ded501dab3400d, type: 3}
-  - {fileID: 178233684, guid: ef13e825efcd9ca42ad331c71283d00a, type: 3}
-  - {fileID: 911900597, guid: 8b44a32b3be96cc4681fc97486577692, type: 3}
-  - {fileID: -56751088, guid: 526dfb0cd2f04a8418298a52d3d59ed4, type: 3}
-  opcioncontador: 0
 --- !u!1 &7156833566991067960
 GameObject:
   m_ObjectHideFlags: 0
@@ -2293,6 +2059,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4245654469340513905}
+  - component: {fileID: 7209360814740710042}
   m_Layer: 0
   m_Name: Animal
   m_TagString: Player
@@ -2319,6 +2086,121 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7209360814740710042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7976012967726126788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeed9b538878d4d4eadd67db936626e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7976012967726126788}
+  Perro: {fileID: 4118037524380916505}
+  Gato: {fileID: 8160244785957504040}
+  isPerro: 1
+  isGato: 0
+  CabezaP: {fileID: 6386903610419037747}
+  CuerpoP: {fileID: 2247583035810116783}
+  PataIzquierdaP: {fileID: 8002763345452032936}
+  PataDerechaP: {fileID: 902254548102935622}
+  PataIzquierdaIP: {fileID: 3072733902404727707}
+  PataDerechaIP: {fileID: 8864571678378786819}
+  ColaP: {fileID: 1450009292609546743}
+  CabezaC: {fileID: 3684177330076170768}
+  CuerpoC: {fileID: 3056924198382380811}
+  PataIzquierdaC: {fileID: 5837602937322370689}
+  PataDerechaC: {fileID: 4138996058039718260}
+  PataIzquierdaIC: {fileID: 6829491929928546109}
+  PataDerechaIC: {fileID: 9209025214469128195}
+  ColaC: {fileID: 5488944025940606287}
+  listaRopaCabezaP:
+  - {fileID: 840821851, guid: 9f004233cac05e54bb00f4ead681a489, type: 3}
+  - {fileID: -274837480, guid: bdc9d86f9fc1189489ded501dab3400d, type: 3}
+  - {fileID: -303753439, guid: ef13e825efcd9ca42ad331c71283d00a, type: 3}
+  - {fileID: -1965769979, guid: 8b44a32b3be96cc4681fc97486577692, type: 3}
+  - {fileID: 926310121, guid: 526dfb0cd2f04a8418298a52d3d59ed4, type: 3}
+  listaRopaCuerpoP:
+  - {fileID: 535533000, guid: 9f004233cac05e54bb00f4ead681a489, type: 3}
+  - {fileID: 259770285, guid: bdc9d86f9fc1189489ded501dab3400d, type: 3}
+  - {fileID: 178233684, guid: ef13e825efcd9ca42ad331c71283d00a, type: 3}
+  - {fileID: 911900597, guid: 8b44a32b3be96cc4681fc97486577692, type: 3}
+  - {fileID: -56751088, guid: 526dfb0cd2f04a8418298a52d3d59ed4, type: 3}
+  listaRopaPataIzquierdaP:
+  - {fileID: -1865588906, guid: 9f004233cac05e54bb00f4ead681a489, type: 3}
+  - {fileID: -2001297057, guid: bdc9d86f9fc1189489ded501dab3400d, type: 3}
+  - {fileID: -67351598, guid: ef13e825efcd9ca42ad331c71283d00a, type: 3}
+  - {fileID: 112294867, guid: 8b44a32b3be96cc4681fc97486577692, type: 3}
+  - {fileID: -1047061351, guid: 526dfb0cd2f04a8418298a52d3d59ed4, type: 3}
+  listaRopaPataDerechaP:
+  - {fileID: -1188085515, guid: 9f004233cac05e54bb00f4ead681a489, type: 3}
+  - {fileID: -514886333, guid: bdc9d86f9fc1189489ded501dab3400d, type: 3}
+  - {fileID: 1890584958, guid: ef13e825efcd9ca42ad331c71283d00a, type: 3}
+  - {fileID: -823121074, guid: 8b44a32b3be96cc4681fc97486577692, type: 3}
+  - {fileID: -604838444, guid: 526dfb0cd2f04a8418298a52d3d59ed4, type: 3}
+  listaRopaPataIzquierdaIP:
+  - {fileID: -38842995, guid: 9f004233cac05e54bb00f4ead681a489, type: 3}
+  - {fileID: -1320557900, guid: bdc9d86f9fc1189489ded501dab3400d, type: 3}
+  - {fileID: -1961502036, guid: ef13e825efcd9ca42ad331c71283d00a, type: 3}
+  - {fileID: 748125401, guid: 8b44a32b3be96cc4681fc97486577692, type: 3}
+  - {fileID: -2066724523, guid: 526dfb0cd2f04a8418298a52d3d59ed4, type: 3}
+  listaRopaPataDerechaIP:
+  - {fileID: 1119836613, guid: 9f004233cac05e54bb00f4ead681a489, type: 3}
+  - {fileID: 2027907174, guid: bdc9d86f9fc1189489ded501dab3400d, type: 3}
+  - {fileID: 1198202258, guid: ef13e825efcd9ca42ad331c71283d00a, type: 3}
+  - {fileID: -900180897, guid: 8b44a32b3be96cc4681fc97486577692, type: 3}
+  - {fileID: -507730059, guid: 526dfb0cd2f04a8418298a52d3d59ed4, type: 3}
+  listaRopaColaP:
+  - {fileID: 2044445220, guid: 9f004233cac05e54bb00f4ead681a489, type: 3}
+  - {fileID: 991579159, guid: bdc9d86f9fc1189489ded501dab3400d, type: 3}
+  - {fileID: -1712899871, guid: ef13e825efcd9ca42ad331c71283d00a, type: 3}
+  - {fileID: -316139063, guid: 8b44a32b3be96cc4681fc97486577692, type: 3}
+  - {fileID: 1520220312, guid: 526dfb0cd2f04a8418298a52d3d59ed4, type: 3}
+  listaRopaCabezaC:
+  - {fileID: 1670976898, guid: 74b3d9b3a54a4934cb5e865a5e894625, type: 3}
+  - {fileID: -1155241066, guid: 1112257cfeaebbe4683fd8b02f1c3121, type: 3}
+  - {fileID: 2092041783, guid: c587ca3b1355ffa41b786bc0b08f84a8, type: 3}
+  listaRopaCuerpoC:
+  - {fileID: -1322482606, guid: 74b3d9b3a54a4934cb5e865a5e894625, type: 3}
+  - {fileID: 836816865, guid: 1112257cfeaebbe4683fd8b02f1c3121, type: 3}
+  - {fileID: 60260742, guid: c587ca3b1355ffa41b786bc0b08f84a8, type: 3}
+  listaRopaPataIzquierdaC:
+  - {fileID: -535415952, guid: 74b3d9b3a54a4934cb5e865a5e894625, type: 3}
+  - {fileID: 944272293, guid: 1112257cfeaebbe4683fd8b02f1c3121, type: 3}
+  - {fileID: -1484243037, guid: c587ca3b1355ffa41b786bc0b08f84a8, type: 3}
+  listaRopaPataDerechaC:
+  - {fileID: 9201990, guid: 74b3d9b3a54a4934cb5e865a5e894625, type: 3}
+  - {fileID: -878471535, guid: 1112257cfeaebbe4683fd8b02f1c3121, type: 3}
+  - {fileID: -33303502, guid: c587ca3b1355ffa41b786bc0b08f84a8, type: 3}
+  listaRopaPataIzquierdaIC:
+  - {fileID: -2074029864, guid: 74b3d9b3a54a4934cb5e865a5e894625, type: 3}
+  - {fileID: 1665217994, guid: 1112257cfeaebbe4683fd8b02f1c3121, type: 3}
+  - {fileID: -2134102186, guid: c587ca3b1355ffa41b786bc0b08f84a8, type: 3}
+  listaRopaPataDerechaIC:
+  - {fileID: -1857163870, guid: 74b3d9b3a54a4934cb5e865a5e894625, type: 3}
+  - {fileID: -482042987, guid: 1112257cfeaebbe4683fd8b02f1c3121, type: 3}
+  - {fileID: -2147160902, guid: c587ca3b1355ffa41b786bc0b08f84a8, type: 3}
+  listaRopaColaC:
+  - {fileID: 1435002423, guid: 74b3d9b3a54a4934cb5e865a5e894625, type: 3}
+  - {fileID: 1399605753, guid: 1112257cfeaebbe4683fd8b02f1c3121, type: 3}
+  - {fileID: 1752112023, guid: c587ca3b1355ffa41b786bc0b08f84a8, type: 3}
+  opcioncontador1P: 0
+  opcioncontador2P: 0
+  opcioncontador3P: 0
+  opcioncontador4P: 0
+  opcioncontador5P: 0
+  opcioncontador6P: 0
+  opcioncontador7P: 0
+  opcioncontador1C: 0
+  opcioncontador2C: 0
+  opcioncontador3C: 0
+  opcioncontador4C: 0
+  opcioncontador5C: 0
+  opcioncontador6C: 0
+  opcioncontador7C: 0
 --- !u!1 &8130869933928132863
 GameObject:
   m_ObjectHideFlags: 0
@@ -2329,7 +2211,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6088147336268776853}
   - component: {fileID: 3684177330076170768}
-  - component: {fileID: 2878864729763698558}
   m_Layer: 0
   m_Name: CabezaSprite
   m_TagString: Untagged
@@ -2404,25 +2285,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2878864729763698558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8130869933928132863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e6ad958c9542b44a3e53a5915d4635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7976012967726126788}
-  parteCuerpo: {fileID: 3684177330076170768}
-  listaRopa:
-  - {fileID: 11101083, guid: 3017a716f23c6a74f8b2e9329480c89b, type: 3}
-  - {fileID: 337125978, guid: ce0edcb5df94a644f968cdfd7ec3d26c, type: 3}
-  - {fileID: 1871378451, guid: 405c91efe0248d84da89fc996684fd7a, type: 3}
-  opcioncontador: 0
 --- !u!1 &8136083411991288617
 GameObject:
   m_ObjectHideFlags: 0
@@ -2565,7 +2427,6 @@ GameObject:
   m_Component:
   - component: {fileID: 675231504898610808}
   - component: {fileID: 4138996058039718260}
-  - component: {fileID: 4046576507346080527}
   m_Layer: 0
   m_Name: PataDerechaSprite
   m_TagString: Untagged
@@ -2640,25 +2501,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4046576507346080527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8909392460736209078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e6ad958c9542b44a3e53a5915d4635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7976012967726126788}
-  parteCuerpo: {fileID: 4138996058039718260}
-  listaRopa:
-  - {fileID: 1944904579, guid: 3017a716f23c6a74f8b2e9329480c89b, type: 3}
-  - {fileID: 991084325, guid: ce0edcb5df94a644f968cdfd7ec3d26c, type: 3}
-  - {fileID: 1377339827, guid: 405c91efe0248d84da89fc996684fd7a, type: 3}
-  opcioncontador: 0
 --- !u!1 &8957010064678720075
 GameObject:
   m_ObjectHideFlags: 0
@@ -2801,7 +2643,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8315058486217011518}
   - component: {fileID: 5488944025940606287}
-  - component: {fileID: 5846369097243583660}
   m_Layer: 0
   m_Name: ColaSprite
   m_TagString: Untagged
@@ -2876,25 +2717,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5846369097243583660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9141724367578421762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e6ad958c9542b44a3e53a5915d4635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7976012967726126788}
-  parteCuerpo: {fileID: 5488944025940606287}
-  listaRopa:
-  - {fileID: -779210178, guid: 3017a716f23c6a74f8b2e9329480c89b, type: 3}
-  - {fileID: 1798943208, guid: ce0edcb5df94a644f968cdfd7ec3d26c, type: 3}
-  - {fileID: -1962204206, guid: 405c91efe0248d84da89fc996684fd7a, type: 3}
-  opcioncontador: 0
 --- !u!1 &9166486705534527839
 GameObject:
   m_ObjectHideFlags: 0
