@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio_interfaz">
+
+    <fragment
+        android:id="@+id/nav_inicio_interfaz"
+        android:name="com.example.drawer.ui.adopcionpanel.InicioInterfaz"
+        android:label="@string/menu_inicio_interaz"
+        tools:layout="@layout/fragment_inicio_interfaz" />
+
+    <fragment
+        android:id="@+id/nav_adopcion"
+        android:name="com.example.drawer.ui.adopcionpanel.PanelAdopcion"
+        android:label="@string/menu_adoptar"
+        tools:layout="@layout/fragment_pnl_adopcion" />
+
+    <fragment
+        android:id="@+id/nav_editar_inicio_interfaz"
+        android:name="com.example.drawer.ui.adopcionpanel.EditarInicioInterfaz"
+        android:label="@string/menu_editar_inicio_interfaz"
+        tools:layout="@layout/fragment_editar_inicio_interfaz" />
+
+    <fragment
+        android:id="@+id/nav_comprar_monedas"
+        android:name="com.example.drawer.ui.adopcionpanel.ComprarMonedas"
+        android:label="@string/menu_comprar_monedas"
+        tools:layout="@layout/fragment_comprar_monedas" />
+
+    <fragment
+        android:id="@+id/nav_lista_albergues"
+        android:name="com.example.drawer.ui.Albergue.ListaAlbergues"
+        android:label="@string/menu_lista_albergue"
+        tools:layout="@layout/fragment_lista_albergues" />
+</navigation>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">drawer</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+<!--    Strings daniel-->
+    <string name="menu_adoptar">Adoptar</string>
+    <string name="menu_inicio_interaz">Inicio</string>
+    <string name="menu_editar_inicio_interfaz">Editar</string>}
+    <string name="menu_comprar_monedas">Monedas</string>
+    <string name="menu_lista_albergue">Albergues</string>
+</resources>
