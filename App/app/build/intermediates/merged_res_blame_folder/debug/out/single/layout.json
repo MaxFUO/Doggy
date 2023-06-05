@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.example.drawer.app-mergeDebugResources-40:/layout/fragment_pago_plin.xml",
+        "source": "com.example.drawer.app-main-43:/layout/fragment_pago_plin.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\activity_iniciar_sesion.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\activity_iniciar_sesion.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\fragment_pnl_adopcion.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\fragment_pnl_adopcion.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\fragment_comprar_monedas.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\fragment_comprar_monedas.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\activity_crear_cuenta.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\activity_crear_cuenta.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\albergues_list_image.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\albergues_list_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\fragment_comprar_yape.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\fragment_comprar_yape.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\fragment_pnl_confirmacion.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\fragment_pnl_confirmacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\fragment_lista_albergues.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\fragment_lista_albergues.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\fragment_pago_plin.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\fragment_pago_plin.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\fragment_notifications.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\fragment_editar_inicio_interfaz.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\fragment_editar_inicio_interfaz.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\fragment_donar_albergues.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\fragment_donar_albergues.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\activity_bienvenidos.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\activity_bienvenidos.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\item_lista_animales2.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\item_lista_animales2.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\item_lista_animales.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\item_lista_animales.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\fragment_pnl_rechazo.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\fragment_pnl_rechazo.xml"
+    },
+    {
+        "merged": "com.example.drawer.app-mergeDebugResources-40:/layout/fragment_pnl_adopcion.xml",
+        "source": "com.example.drawer.app-main-43:/layout/fragment_pnl_adopcion.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\fragment_consultar_listado_animal.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\fragment_consultar_listado_animal.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-mergeDebugResources-40:\\layout\\fragment_inicio_interfaz.xml",
+        "source": "C:\\Users\\maxfr\\.gradle\\daemon\\7.5\\com.example.drawer.app-main-43:\\layout\\fragment_inicio_interfaz.xml"
+    },
+    {
+        "merged": "com.example.drawer.app-mergeDebugResources-40:/layout/fragment_editar_inicio_interfaz.xml",
+        "source": "com.example.drawer.app-main-43:/layout/fragment_editar_inicio_interfaz.xml"
+    }
+]

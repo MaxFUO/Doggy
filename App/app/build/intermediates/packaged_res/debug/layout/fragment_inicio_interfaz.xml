@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_background_bic"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="403dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="409dp"
+                    android:layout_height="298dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imgEditarPerfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/icono_configuracion" />
+
+                <ImageView
+                    android:id="@+id/imgFondo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgEditarPerfil"
+                    app:srcCompat="@drawable/fondo_perfil" />
+
+                <ImageView
+                    android:id="@+id/imgFotoPerfil"
+                    android:layout_width="107dp"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgFondo"
+                    app:layout_constraintEnd_toEndOf="@+id/imgFondo"
+                    app:layout_constraintHorizontal_bias="0.4"
+                    app:layout_constraintStart_toStartOf="@+id/imgFondo"
+                    app:layout_constraintTop_toTopOf="@+id/imgFondo"
+                    app:layout_constraintVertical_bias="0.875"
+                    app:srcCompat="@drawable/foto_perfil" />
+
+                <TextView
+                    android:id="@+id/txtUsuario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Hola Daniel Andy"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/imgFondo"
+                    app:layout_constraintTop_toTopOf="@+id/imgFondo" />
+
+                <TextView
+                    android:id="@+id/txtCorreo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="saraanderson@gmail.com"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgFondo"
+                    app:layout_constraintStart_toStartOf="@+id/txtUsuario"
+                    app:layout_constraintTop_toBottomOf="@+id/txtUsuario"
+                    app:layout_constraintVertical_bias="0.476" />
+
+                <LinearLayout
+                    android:layout_width="347dp"
+                    android:layout_height="189dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/background_requisitos"
+                    android:elevation="3dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.395">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mi cuenta"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="#707070" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="Total de Monedas"
+                                android:textAlignment="center"
+                                android:textColor="#8d8d8d"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/txtMonedas"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="10"
+                                android:textSize="25sp"
+                                android:textAlignment="center"
+                                android:drawableEnd="@drawable/img_moneda"
+                                android:textColor="@color/ColorPrincipal1"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="Total de Donaciones"
+                                android:textAlignment="center"
+                                android:textColor="#8d8d8d"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/txtDonaciones"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:textSize="25sp"
+                                android:textAlignment="center"
+                                android:textColor="#000000"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+                android:orientation="vertical"
+                android:paddingStart="32dp"
+                android:paddingTop="0dp"
+                android:paddingEnd="32dp"
+                android:paddingBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="3dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/txtNombreMascota">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.333">
+
+                        <ImageView
+                            android:id="@+id/btnAlbergue"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="38dp"
+                            app:layout_constraintBottom_toTopOf="@+id/txtNacimiento"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0"
+                            app:srcCompat="@drawable/btn_albergue" />
+
+                        <TextView
+                            android:id="@+id/txtNacimiento"
+                            android:layout_width="wrap_content"
+                            android:layout_height="19dp"
+                            android:layout_below="@id/btnAlbergue"
+                            android:layout_marginTop="72dp"
+                            android:text="Albergues"
+                            android:textColor="@color/white"
+                            app:layout_constraintEnd_toEndOf="@+id/btnAlbergue"
+                            app:layout_constraintHorizontal_bias="0.142"
+                            app:layout_constraintStart_toStartOf="@+id/btnAlbergue"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="0.333">
+
+                        <ImageView
+                            android:id="@+id/btnAdopcion"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="34dp"
+                            app:layout_constraintBottom_toTopOf="@+id/txtNacimiento2"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.583"
+                            app:srcCompat="@drawable/btn_adopcion" />
+
+                        <TextView
+                            android:id="@+id/txtGenero"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:textColor="#575454"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/txtNacimiento2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="19dp"
+                            android:layout_marginTop="64dp"
+                            android:text="Adopción"
+                            android:textColor="@color/white"
+                            app:layout_constraintEnd_toEndOf="@+id/btnAdopcion"
+                            app:layout_constraintHorizontal_bias="0.333"
+                            app:layout_constraintStart_toStartOf="@+id/btnAdopcion"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.333">
+
+                        <ImageView
+                            android:id="@+id/btnJuegos"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/txtRequiere"
+                            app:layout_constraintHorizontal_bias="0.612"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/btn_juegos" />
+
+                        <TextView
+                            android:id="@+id/txtRequiere"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:textColor="#575454"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/txtNacimiento3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="19dp"
+                            android:layout_marginTop="40dp"
+                            android:text="Juegos"
+                            android:textColor="@color/white"
+                            app:layout_constraintEnd_toEndOf="@+id/btnJuegos"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/btnJuegos"
+                            app:layout_constraintTop_toTopOf="@+id/btnJuegos" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtVerMas"
+                android:layout_width="375dp"
+                android:layout_height="30dp"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:text="Ver todo>"
+                android:textColor="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="213dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/background_requisitos"
+                android:elevation="3dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView"
+                app:layout_constraintVertical_bias="0.395">
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginEnd="120dp"
+                    android:background="#707070" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Donaciones Recientes"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/txtDonacionesRecientes"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="+ S/10.00"
+                        android:textAlignment="viewEnd"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Total de Monedas Gastadas"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtMonedasGastadas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableEnd="@drawable/img_moneda"
+                        android:text="10"
+                        android:textAlignment="viewEnd"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Adopciones Totales"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtAdopcionesTotales"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0"
+                        android:textAlignment="viewEnd"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <EditText
+                android:id="@+id/edtBuscarUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="52dp"
+                android:hint="Ingresa el ID del Usuario"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <Button
+                android:id="@+id/btnBuscarUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_btnadoptar"
+                android:text="Consultar"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                app:layout_constraintVertical_bias="0.939" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

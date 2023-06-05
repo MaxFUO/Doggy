@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_inicio_interfaz"
+        android:icon="@drawable/ic_inicio"
+        android:title="@string/menu_inicio_interaz"/>
+
+    <item
+        android:id="@+id/nav_adopcion"
+        android:icon="@drawable/ic_adopcion"
+        android:title="@string/menu_adoptar"/>
+
+<!--    se procede a analizar su integridad en la barra de navegacion-->
+    <item
+        android:id="@+id/nav_editar_inicio_interfaz"
+        android:icon="@drawable/ic_check"
+        android:title="@string/menu_editar_inicio_interfaz"/>
+<!---->
+
+    <item
+        android:id="@+id/nav_comprar_monedas"
+        android:icon="@drawable/ic_compra"
+        android:title="@string/menu_comprar_monedas"/>
+
+    <item
+        android:id="@+id/nav_lista_albergues"
+        android:icon="@drawable/ic_descripcion"
+        android:title="@string/menu_lista_albergue"/>
+
+</menu>
