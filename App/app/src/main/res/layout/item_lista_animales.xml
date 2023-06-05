@@ -6,7 +6,8 @@
     android:animateLayoutChanges="true"
     app:cardCornerRadius="20dp"
     app:cardElevation="4dp"
-    app:cardUseCompatPadding="true">
+    app:cardUseCompatPadding="true"
+    android:background="@color/white">
 
 
     <LinearLayout
@@ -15,7 +16,8 @@
 
         android:layout_height="160dp"
         android:animateLayoutChanges="true"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/white">
 
 
         <LinearLayout
@@ -49,6 +51,7 @@
                         android:layout_marginLeft="25dp"
                         android:layout_marginRight="3dp"
                         android:hint="ID"
+                        android:textColor="@color/black"
                         android:textAlignment="center"
                         android:textSize="18dp"
                         android:textStyle="bold"
@@ -58,6 +61,7 @@
                         android:id="@+id/txtNombreAnimal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/black"
                         android:hint="NOMBRE ANIMAL"
                         android:textAlignment="center"
                         android:textSize="19dp"
@@ -75,6 +79,7 @@
                     android:paddingLeft="4dp"
                     android:paddingRight="3dp"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
                     android:textSize="14dp" />
 
                 <LinearLayout

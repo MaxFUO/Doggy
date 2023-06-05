@@ -11,4 +11,6 @@
     <color name="ColorPrincipal2">#505BDA</color>
     <color name="ColorPrincipal3">#B063C5</color>
     <color name="ColorPrincipal4">#FFAAC3</color>
+
+    <color name="ColorTransparente">#00FFAAC3</color>
 </resources>

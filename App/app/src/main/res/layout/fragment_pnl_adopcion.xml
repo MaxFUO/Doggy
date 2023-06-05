@@ -206,7 +206,7 @@
                                 android:id="@+id/txtDescripcionMascota"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:textColor="#000000"
+                                android:textColor="@color/black"
                                 android:textSize="15dp" />
 
                         </LinearLayout>
@@ -249,6 +249,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
+                                android:textColor="@color/black"
                                 android:text="Ser mayor de edad o contar con la autorización de tus padres o tutores." />
 
                             <CheckBox
@@ -256,6 +257,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
+                                android:textColor="@color/black"
                                 android:text="Contar con un espacio adecuado para el animal en tu hogar." />
 
                             <CheckBox
@@ -263,6 +265,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
+                                android:textColor="@color/black"
                                 android:text="Contar con los recursos económicos necesarios para cuidar del animal." />
 
                             <CheckBox
@@ -270,6 +273,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
+                                android:textColor="@color/black"
                                 android:text="Ser buena Persona :))" />
                         </LinearLayout>
 

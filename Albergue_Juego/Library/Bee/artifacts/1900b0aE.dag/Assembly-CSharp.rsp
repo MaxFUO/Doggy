@@ -369,13 +369,19 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scenes/Juego2.cs"
+"Assets/Scripts/CambiarPlato.cs"
 "Assets/Scripts/CambiarScena.cs"
 "Assets/Scripts/CroquetasComp.cs"
+"Assets/Scripts/EnviarPlayer.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GeneradorCroquetas.cs"
 "Assets/Scripts/GeneradorHearth.cs"
 "Assets/Scripts/MovHearth.cs"
+"Assets/Scripts/ObtenerAnimal.cs"
 "Assets/Scripts/OnClikDetected.cs"
+"Assets/Scripts/Ropas.cs"
+"Assets/Scripts/Skins.cs"
 -langversion:9.0
 
 /deterministic

@@ -47,7 +47,7 @@ public class InicioInterfaz extends Fragment {
         btnBuscarUsuario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                buscarUsuarios("http://192.168.1.9:80/doggy/buscar_usuarios.php?idUsuario="+edtBuscarUsuario.getText()+"");
+                buscarUsuarios("http://140.84.189.249/buscar_usuarios.php?idUsuario="+edtBuscarUsuario.getText().toString());
                /* 192.168.1.19:80*/
             }
         });
@@ -64,7 +64,7 @@ public class InicioInterfaz extends Fragment {
                 for (int i = 0; i < response.length(); i++) {
                     try {
                         jsonObject = response.getJSONObject(i);
-                        edtBuscarUsuario.setText(jsonObject.getString("IDUsuario"));
+                        edtBuscarUsuario.setText(jsonObject.getString("ID_Usuario"));
 
                         // Obtener el nombre y apellido del usuario
                         String nombreUsuario = jsonObject.getString("NombreUsu");

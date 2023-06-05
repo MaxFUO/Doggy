@@ -82,7 +82,7 @@ public class PanelAdopcion extends Fragment {
         btnConsultar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                buscarAnimales("http://192.168.1.9:80/doggy/buscar_datos.php?idAnimal="+txtIdMascota.getText()+"");
+                buscarAnimales("http://140.84.189.249/buscar_datos.php?idAnimal="+txtIdMascota.getText()+"");
             }
         });
 
@@ -160,7 +160,7 @@ public class PanelAdopcion extends Fragment {
                 for (int i = 0; i < response.length(); i++) {
                     try {
                         jsonObject = response.getJSONObject(i);
-                        txtIdMascota.setText(jsonObject.getString("IDAnimal"));
+                        txtIdMascota.setText(jsonObject.getString("ID_Animal"));
                         txtNombreMascota.setText(jsonObject.getString("NombreAni"));
                         txtGenero.setText(jsonObject.getString("GeneroAni"));
                         txtRequiere.setText(jsonObject.getString("CuidadosEspeciales"));

@@ -49,7 +49,7 @@ public class EditarInicioInterfaz extends Fragment {
                 String correo = edtEditarCorreo.getText().toString();
                 String contraseña = edtEditarContraseña.getText().toString();
 
-                String url = "http://192.168.1.9:80/doggy/insertar_datos.php?id=" + id +
+                String url = "http://140.84.189.249/insertar_datos.php?id=" + id +
                         "&nombre=" + nombre +
                         "&apellido=" + apellidos +
                         "&edad=" + edad +

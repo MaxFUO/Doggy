@@ -113,6 +113,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:textColor="@color/black"
                             android:text="Mi cuenta"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -191,7 +192,7 @@
                                 android:layout_marginTop="8dp"
                                 android:textSize="25sp"
                                 android:textAlignment="center"
-                                android:textColor="#000000"
+                                android:textColor="@color/black"
                                 android:textStyle="bold" />
 
                         </LinearLayout>
@@ -382,6 +383,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Donaciones Recientes"
+                        android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -406,6 +408,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Total de Monedas Gastadas"
+                        android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -431,6 +434,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Adopciones Totales"
+                        android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -465,6 +469,7 @@
                 android:background="@drawable/background_btnadoptar"
                 android:text="Consultar"
                 android:textColor="@color/white"
+                android:layout_marginBottom="80dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"

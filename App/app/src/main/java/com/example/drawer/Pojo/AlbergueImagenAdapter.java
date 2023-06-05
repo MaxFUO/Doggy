@@ -1,5 +1,6 @@
 package com.example.drawer.Pojo;
 
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -26,6 +27,10 @@ public class AlbergueImagenAdapter extends RecyclerView.Adapter<AlbergueImagenAd
     @Override
     public AlbergueViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.albergues_list_image, parent, false);
+        view.setLayoutParams(new ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT));
+        view.setForegroundGravity(Gravity.CENTER);
         return new AlbergueViewHolder(view);
     }
 

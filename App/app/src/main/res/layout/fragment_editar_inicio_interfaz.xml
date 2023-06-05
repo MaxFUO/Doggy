@@ -139,6 +139,7 @@
                             <EditText
                                 android:id="@+id/edtIdUsuario"
                                 android:layout_width="wrap_content"
+                                android:textColor="@color/black"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:hint="12345"
@@ -176,6 +177,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:hint="Change"
+                                android:textColor="@color/black"
                                 android:textAlignment="viewEnd"
                                 android:textSize="12sp" />
 
@@ -212,6 +214,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:hint="Change"
+                                android:textColor="@color/black"
                                 android:textAlignment="viewEnd"
                                 android:textSize="12sp" />
 
@@ -278,6 +281,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:hint="988768885"
+                                android:textColor="@color/black"
                                 android:textAlignment="viewEnd"
                                 android:textSize="12sp" />
 
@@ -344,6 +348,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:hint="12345"
+                                android:textColor="@color/black"
                                 android:textAlignment="viewEnd"
                                 android:textSize="12sp" />
 
@@ -440,6 +445,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:textColor="@color/black"
                                 android:text="S/ 10.00"
                                 android:textAlignment="viewEnd" />
 
@@ -473,6 +479,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="3"
+                                android:textColor="@color/black"
                                 android:textAlignment="center" />
 
                         </LinearLayout>
@@ -546,7 +553,8 @@
                         app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-                        app:layout_constraintVertical_bias="0.0">
+                        app:layout_constraintVertical_bias="0.0"
+                        android:layout_marginBottom="80dp">
 
                         <Button
                             android:id="@+id/btnVolver"
