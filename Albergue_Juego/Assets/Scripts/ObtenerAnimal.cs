@@ -4,13 +4,20 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using System;
+using UnityEngine.Networking;
 public class ObtenerAnimal : MonoBehaviour
 {
+    [Header("ID del animal")]
+    public int idAnimalObetenido;
+    public int idAnimalEstadistica;
+    public int idAnimal;
+
     [Header("Tipos de GameObjects")]
     public GameObject player;
     public GameObject Perro;
     public GameObject Gato;
+    public int gatonum, perronum;
     public bool isPerro;
     public bool isGato;
 
@@ -68,17 +75,26 @@ public class ObtenerAnimal : MonoBehaviour
     public int opcioncontador6C = 0;
     public int opcioncontador7C = 0;
 
-    void Update()
+    private void Awake()
     {
-        if (isGato)
-        {      
+        StartCoroutine(ObtenerAnimalEstadisticas());
+    }
+    private void Start()
+    {
+        
+        if (gatonum == 1)
+        {
             isPerro = false;
+            isGato = true;
         }
-        else
+        if (perronum == 1)
         {
             isPerro = true;
-        }
-
+            isGato = false;
+        }      
+    }
+    void Update()
+    {
         Perro.SetActive(isPerro);
         Gato.SetActive(isGato);
         //obtencion skin gato
@@ -98,5 +114,33 @@ public class ObtenerAnimal : MonoBehaviour
         PataIzquierdaIP.sprite = listaRopaPataIzquierdaIP[opcioncontador5P];
         PataDerechaIP.sprite = listaRopaPataDerechaIP[opcioncontador6P];
         ColaP.sprite = listaRopaColaP[opcioncontador7P];
+    }
+
+    IEnumerator ObtenerAnimalEstadisticas()
+    {
+        WWW conexion = new WWW("http://140.84.189.249/consultarestadisticasanimal.php?ID_Estadisticas_anim=" + idAnimalObetenido);
+        yield return conexion;
+
+        string[] nDatos = conexion.text.Split("|");
+
+        idAnimalEstadistica = int.Parse(nDatos[0]);
+        idAnimal = int.Parse(nDatos[1]);
+        gatonum = int.Parse(nDatos[2]);
+        perronum = int.Parse(nDatos[3]);
+        
+        opcioncontador1P = int.Parse(nDatos[4]);
+        opcioncontador2P = int.Parse(nDatos[5]);
+        opcioncontador3P = int.Parse(nDatos[6]);
+        opcioncontador4P = int.Parse(nDatos[7]);
+        opcioncontador5P = int.Parse(nDatos[8]);
+        opcioncontador6P = int.Parse(nDatos[9]);
+        opcioncontador7P = int.Parse(nDatos[10]);
+        opcioncontador1C = int.Parse(nDatos[11]);
+        opcioncontador2C = int.Parse(nDatos[12]);
+        opcioncontador3C = int.Parse(nDatos[13]);
+        opcioncontador4C = int.Parse(nDatos[14]);
+        opcioncontador5C = int.Parse(nDatos[15]);
+        opcioncontador6C = int.Parse(nDatos[16]);
+        opcioncontador7C = int.Parse(nDatos[17]);
     }
 }

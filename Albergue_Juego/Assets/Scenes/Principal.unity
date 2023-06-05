@@ -549,8 +549,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   estado: 0
-  player: {fileID: 0}
+  player: {fileID: 1344352354}
   txtNombreAnimal: {fileID: 1022712363}
+  textoRecuperado: 
+  idAnimalObetenido: 1
 --- !u!4 &393726987
 Transform:
   m_ObjectHideFlags: 0
@@ -1059,6 +1061,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5451520346661290748, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+      propertyPath: m_Volume
+      value: 0.165
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451520346661290748, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7209360814740710042, guid: 8ef92641192bfe54da5884568de95527, type: 3}
       propertyPath: Gato
       value: 
@@ -1073,6 +1083,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7209360814740710042, guid: 8ef92641192bfe54da5884568de95527, type: 3}
       propertyPath: isPerro
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209360814740710042, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+      propertyPath: idAnimalObetenido
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7976012967726126788, guid: 8ef92641192bfe54da5884568de95527, type: 3}
@@ -1471,6 +1485,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293988117}
   m_CullTransparentMesh: 1
+--- !u!1 &1344352354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7976012967726126788, guid: 8ef92641192bfe54da5884568de95527, type: 3}
+  m_PrefabInstance: {fileID: 1006488630}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1416543036 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4118037524380916505, guid: 8ef92641192bfe54da5884568de95527, type: 3}
